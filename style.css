@@ -56,6 +56,7 @@ header
 {
     display: flex;
     justify-content: space-between;
+    margin-right: 74px;
 }
 
 .logo
@@ -236,7 +237,7 @@ nav a:hover
 {
     display: flex;
     align-items: center;
-    border: solid 2px #d4d4d4;
+    border: solid 3px #f2f2f2;
     border-radius: 50px;
     border-left: none;
     width: 192px;
@@ -252,7 +253,7 @@ nav a:hover
 
 .bubble1{
     color: #0065FC;
-    background: #d3e5fd;
+    background: #deebff;
     border-radius: 50%;
     width: 50px;
     height: 50px;  
@@ -273,7 +274,7 @@ nav a:hover
  {
     display: flex;
     align-items: center;
-    border: solid 2px #d4d4d4;
+    border: solid 3px #F2F2F2;
     border-radius: 50px;
     border-left: none;
     width: 146px;
@@ -290,7 +291,7 @@ nav a:hover
 .bubble2
 {
     color: #0065FC;
-    background: #d3e5fd;
+    background: #deebff;
     border-radius: 50%;
     width: 50px;
     height: 50px;  
@@ -312,7 +313,7 @@ nav a:hover
  {
     display: flex;
     align-items: center;
-    border: solid 2px #d4d4d4;
+    border: solid 3px #f2f2f2;
     border-radius: 50px;
     border-left: none;
     width: 187px;
@@ -350,7 +351,7 @@ nav a:hover
  {
     display: flex;
     align-items: center;
-    border: solid 2px #d4d4d4;
+    border: solid 3px #F2F2F2;
     border-radius: 50px;
     border-left: none;
     width: 243px;
@@ -367,7 +368,7 @@ nav a:hover
 .bubble4
 {
     color: #0065FC;
-    background: #d3e5fd;
+    background: #deebff;
     border-radius: 50%;
     width: 50px;
     height: 50px;  
@@ -403,7 +404,320 @@ nav a:hover
     font-weight: 300;
     margin: 10px 0 25px 10px;
 }
-    
+
+
+               /*  Main/accomodation */
+
+.main 
+{
+    display: flex;
+}
+
+.accomodation h2
+{
+    font-family: "Raleway-Bold", sans-serif;
+    padding: 32px 0 0 40px;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 26px;
+}
+
+.container1 h3
+{
+    display: flex;
+    font-family: "Raleway-Bold", sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    margin: 10px 0px 0 17px;
+}
+
+.container1 p
+{
+    display: flex;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    align-items: center;
+    margin: 4px 0 0 16px;
+}
+
+.blue 
+{
+    color: #0065FC;
+}
+
+.grey
+{
+    color: #f2f2f2;
+}
+
+.fa-star  
+{
+    width: 12px;
+    height: 12px;
+    margin:0;
+    margin-right: 2px;
+    margin-bottom: 11px;
+}
+
+.first
+{
+    margin-left: 16px;
+}
+
+.fa-star:before 
+{
+    font-size: 12px;
+}
+
+
+.accomodation
+{
+    background: #F2F2F2;
+    border-radius: 19px;
+    width: 880px;
+    height: 626px;
+    margin: 0px 40px 0px 50px;
+}
+
+.container1
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 17px;
+    grid-row-gap: 30px;
+    margin-left: 36px;
+    margin-right: 36px;
+}
+
+.container1 img:hover
+{
+    transform: scale(1.5);
+}
+
+.accomodation a
+{
+    text-decoration: none;
+    color: black;
+}
+
+.card1 
+{
+    width: 246px;
+    height: 199px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+.card1 img
+{
+    width: 236px;
+    height: 114px;
+    background: url(cannebiere.jpg);
+    border-radius: 13px 13px 0px 0px;
+    margin: 5px 5px 5px 5px;
+}
+
+.card2 
+{
+    width: 246px;
+    height: 199px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+.card2 img
+{
+    width: 236px;
+    height: 114px;  
+    background: url(port.jpg);
+    border-radius: 13px 13px 0px 0px;
+    margin: 5px 5px 5px 5px;
+}
+
+.card3
+{
+    width: 246px;
+    height: 199px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+.card3 img
+{  
+    width: 236px;
+    height: 114px;
+    background: url(mouettes.jpg);
+    border-radius: 13px 13px 0px 0px;
+    margin: 5px 5px 5px 5px;
+}
+
+.card4
+{
+    width: 246px;
+    height: 199px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+.card4 img
+{
+    width: 236px;
+    height: 114px;
+    background: url(mer.jpg);
+    border-radius: 13px 13px 0px 0px;
+    margin: 5px 5px 5px 5px;
+}
+
+.card5 
+{
+    width: 246px;
+    height: 199px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+.card5 img 
+{
+    width: 236px;
+    height: 114px;
+    background: url(mer.jpg);
+    border-radius: 13px 13px 0px 0px;
+    margin: 5px 5px 5px 5px;
+}
+
+.card6 
+{
+    width: 246px;
+    height: 199px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+.card6 img
+{
+    width: 236px;
+    height: 114px;
+    background: url(amina.jpg);
+    border-radius: 13px 13px 0px 0px;
+    margin: 5px 5px 5px 5px;
+}
+
+.more 
+{
+    margin: 41px 0 43px 45px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+
+          /* Main-Aside-Mostpopular */
+
+
+.popular
+{
+    background: #F2F2F2;
+    border-radius: 19px;
+    width: 420px;
+    height: 626px;
+    margin-left: 40px;
+    margin-right: 50px;
+}
+
+.popular
+{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-row-gap: 33px;
+    margin-left: 36px;
+    margin-right: 36px;
+}
+
+.popular h2
+{
+    font-family: "Raleway-Bold", sans-serif;
+    padding: 32px 0 0 37px;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 26px;
+}
+
+.mostpopular
+{
+    display: flex;
+}
+.fa-map-chart-line::before
+{ 
+    width: 22px;
+    height: 18px;
+    font-size: 20px;
+  
+ }
+
+.soleilmatin
+{
+    width: 343px;
+    height: 144px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+.soleilmatin img
+{
+    width: 127px;
+    height: 134px;
+    background: url(cannebiere.jpg);
+    border-radius: 13px 0px 0px 13px;
+    margin: 5px 5px 5px 5px;
+}
+
+.coeureau
+{
+    width: 343px;
+    height: 144px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+.coeureau img 
+{   
+    width: 127px;
+    height: 134px;
+    background: url(coeureau.jpg);
+    border-radius: 13px 0px 0px 13px;
+    margin: 5px 5px 5px 5px;
+}
+
+.bleublanc
+{
+    width: 343px;
+    height: 144px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+
+.bleublanc img 
+{   
+    width: 127px;
+    height: 134px;
+    background: url(bleublanc.jpg);
+    border-radius: 13px 0px 0px 13px;
+    margin: 5px 5px 5px 5px;
+}
+        
     
     
     
