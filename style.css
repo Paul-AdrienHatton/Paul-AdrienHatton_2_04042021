@@ -232,7 +232,8 @@ nav a:hover
     margin-left: 12px;
 }
 
-.economic{
+.economic
+{
     display: flex;
     align-items: center;
     border: solid 2px #d4d4d4;
@@ -241,9 +242,11 @@ nav a:hover
     width: 192px;
     height: 50px;
     margin-left: 23px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.economic p:hover{
+.economic p:hover
+{
     color: #0065FC;
 }
 
@@ -252,15 +255,10 @@ nav a:hover
     background: #d3e5fd;
     border-radius: 50%;
     width: 50px;
-    height: 50px;
-  
+    height: 50px;  
+    padding:15px 13px 13px 13px;
+    font-size: 20px;
 }
-
-.fa-money-bill-wave::before
-{
-    padding: 12px 0px 0px 12px;
-    
- }
 
 .eco
 {
@@ -270,4 +268,142 @@ nav a:hover
     font-weight: 700;
     font-size: 18px;
  }
+
+ .familial
+ {
+    display: flex;
+    align-items: center;
+    border: solid 2px #d4d4d4;
+    border-radius: 50px;
+    border-left: none;
+    width: 146px;
+    height: 50px;
+    margin-left: 23px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.familial p:hover
+{
+    color: #0065FC;
+}
+
+.bubble2
+{
+    color: #0065FC;
+    background: #d3e5fd;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;  
+    padding:15px 15px 15px 17px;
+    font-size: 20px;
+}
+
+
+.fam
+{
+    padding-left: 12px;
+    margin: 0;
+    font-family: "Raleway-Bold", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+ }
+
+ .romantic
+ {
+    display: flex;
+    align-items: center;
+    border: solid 2px #d4d4d4;
+    border-radius: 50px;
+    border-left: none;
+    width: 187px;
+    height: 50px;
+    margin-left: 23px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.romantic p:hover
+{
+    color: #0065FC;
+}
+
+.bubble3
+{
+    color: #0065FC;
+    background: #d3e5fd;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;  
+    padding:15px 18px 18px 15px;
+    font-size: 20px;
+}
+
+.rom
+{
+    padding-left: 12px;
+    margin: 0;
+    font-family: "Raleway-Bold", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+ }
+
+ .animal
+ {
+    display: flex;
+    align-items: center;
+    border: solid 2px #d4d4d4;
+    border-radius: 50px;
+    border-left: none;
+    width: 243px;
+    height: 50px;
+    margin-left: 23px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.animal p:hover
+{
+    color: #0065FC;
+}
+
+.bubble4
+{
+    color: #0065FC;
+    background: #d3e5fd;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;  
+    padding:13px 13px 13px 13px;
+    font-size: 20px;
+}
+
+.ani
+{
+    padding-left: 12px;
+    margin: 0;
+    font-family: "Raleway-Bold", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+ }
+
+ .fa-info
+ {
+    color: #0065FC;
+    border: 1.5px solid #F2F2F2;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    padding: 3px 0 0 8px;
+    margin-right: 12px;
+}
+
+.informations
+{
+    display: flex;
+    align-items: baseline;
+    font-size: 14px;
+    font-weight: 300;
+    margin: 10px 0 25px 10px;
+}
+    
+    
+    
     
