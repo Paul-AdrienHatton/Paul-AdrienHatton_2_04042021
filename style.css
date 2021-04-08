@@ -49,6 +49,9 @@ body
     padding: 0;
 }
 
+
+                 /* Header */
+
 header
 {
     display: flex;
@@ -76,7 +79,6 @@ nav
 nav a
 {
 font-style: normal;
-font-weight: 500;
 font-size: 16px;
 line-height: 19px;
 align-items: center;
@@ -93,6 +95,26 @@ text-decoration: none;
     font-size: 16px;
 }
 
+nav .slidetop1:hover
+{
+    border-top: solid 2px #0065FC;
+}
+
+nav .slidetop2:hover
+{
+    border-top: solid 2px #0065FC;
+}
+
+nav .inscription:hover
+{
+    border-top: solid 2px #0065FC;
+}
+
+nav a:hover
+{
+    color: #deebff;
+}
+
 .slidetop2
 {
     padding-top: 52px;
@@ -101,8 +123,151 @@ text-decoration: none;
 .inscription
 {
     padding-top: 51px;
-    font-style: bold;
     font-weight: 600;
     font-size: 17px;
 }
 
+
+              /* Search Section */
+
+.search-section
+{
+    padding-left: 55px;
+}
+
+.search-section h1
+{
+    font-family: "Raleway-Bold", sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    margin: 0 0 0 10px;
+}
+
+.search-section h2
+{
+    font-style: normal;
+    font-weight: 200;
+    font-size: 13px;
+    margin: 10px 0 30px 10px;
+}
+
+.search
+{
+    display: flex;
+    margin-left: 10px;
+}
+
+.search .fa-map-marker-alt
+{
+    background-color: #F2F2F2;
+    width: 52px;
+    height: 51px;
+    border-radius: 15px 0 0 15px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.search .fa-map-marker-alt::before
+{
+    position: absolute;
+    padding: 17px 19px 20px 20px;
+    width: 13px;
+    height: 18px;
+    font-size: 20px;
+ }
+
+.search input
+{
+    width: 234px;
+    height: 51px;
+    border: solid 2px #F2F2F2;
+    border-left: 0;
+    border-right: 0;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+::placeholder
+{
+    font-family: "Raleway-Bold", sans-serif;
+    border: ;
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+    padding-left: 13px;
+}
+
+.search .click-on
+{
+    font-family: "Raleway-Bold", sans-serif;
+    font-weight: 500;
+    border: none;
+    background: #0065FC;
+    color: white;
+    width: 134px;
+    height: 51px;
+    border-top-right-radius: 13px;
+    border-bottom-right-radius: 13px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.search .click-on2
+{
+    display: none;
+}
+
+.filters
+{
+    position: relative;
+    display: flex;
+    margin-top: 49px;
+}
+
+.filters1
+{
+    position: relative;
+    font-family: "Raleway-Bold", sans-serif;
+    font-weight: 700;
+    align-items: center;
+    font-size: 18px;
+    margin-right: 32px;
+    margin-left: 12px;
+}
+
+.economic{
+    display: flex;
+    align-items: center;
+    border: solid 2px #d4d4d4;
+    border-radius: 50px;
+    border-left: none;
+    width: 192px;
+    height: 50px;
+    margin-left: 23px;
+}
+
+.economic p:hover{
+    color: #0065FC;
+}
+
+.bubble1{
+    color: #0065FC;
+    background: #d3e5fd;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+  
+}
+
+.fa-money-bill-wave::before
+{
+    padding: 12px 0px 0px 12px;
+    
+ }
+
+.eco
+{
+    padding-left: 12px;
+    margin: 0;
+    font-family: "Raleway-Bold", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+ }
+    
