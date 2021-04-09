@@ -158,6 +158,13 @@ nav a:hover
     margin-left: 10px;
 }
 
+.search-section a
+{
+    text-decoration: none;
+    color: black;
+}
+
+
 .search .fa-map-marker-alt
 {
     background-color: #F2F2F2;
@@ -189,7 +196,6 @@ nav a:hover
 ::placeholder
 {
     font-family: "Raleway-Bold", sans-serif;
-    border: ;
     font-size: 18px;
     color: black;
     font-weight: bold;
@@ -490,9 +496,10 @@ nav a:hover
     margin-right: 36px;
 }
 
-.container1 img:hover
+.card:hover
 {
-    transform: scale(1.5);
+     animation-duration: 0.25s;
+     box-shadow: 0 20px 30px rgba(0,0,0,0.25), 0 15px 15px rgba(0,0,0,0.22);
 }
 
 .accomodation a
@@ -503,6 +510,7 @@ nav a:hover
 
 .card1 
 {
+    display: flex;
     width: 246px;
     height: 199px;
     background: #FFFFFF;
@@ -521,6 +529,7 @@ nav a:hover
 
 .card2 
 {
+    display: flex;
     width: 246px;
     height: 199px;
     background: #FFFFFF;
@@ -539,6 +548,7 @@ nav a:hover
 
 .card3
 {
+    display: flex;
     width: 246px;
     height: 199px;
     background: #FFFFFF;
@@ -557,6 +567,7 @@ nav a:hover
 
 .card4
 {
+    display: flex;
     width: 246px;
     height: 199px;
     background: #FFFFFF;
@@ -575,6 +586,7 @@ nav a:hover
 
 .card5 
 {
+    display: flex;
     width: 246px;
     height: 199px;
     background: #FFFFFF;
@@ -593,6 +605,7 @@ nav a:hover
 
 .card6 
 {
+    display: flex;
     width: 246px;
     height: 199px;
     background: #FFFFFF;
@@ -633,13 +646,30 @@ nav a:hover
     margin-right: 50px;
 }
 
-.popular
+.container2
 {
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
     grid-row-gap: 33px;
-    margin-left: 36px;
-    margin-right: 36px;
+    margin-left: 37px;
+    margin-right: 40px;
+}
+
+.container2 h3
+{
+    display: flex;
+    font-family: "Raleway-Bold", sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-bottom: 0;
+}
+
+.container2 p
+{
+    margin: 12px 0 29px 0;
+    margin-left: 20px;
 }
 
 .popular h2
@@ -653,18 +683,29 @@ nav a:hover
 
 .mostpopular
 {
-    display: flex;
+    display: flex;    
 }
-.fa-map-chart-line::before
+
+.fa-chart-line::before
 { 
-    width: 22px;
-    height: 18px;
-    font-size: 20px;
-  
- }
+    padding-left: 116px;
+}
+
+
+.popular a
+{
+    text-decoration: none;
+    color: black;
+}
+
+.first
+{
+    margin-left: 20px;
+}
 
 .soleilmatin
 {
+    display: flex;
     width: 343px;
     height: 144px;
     background: #FFFFFF;
@@ -683,6 +724,7 @@ nav a:hover
 
 .coeureau
 {
+    display: flex;
     width: 343px;
     height: 144px;
     background: #FFFFFF;
@@ -701,6 +743,7 @@ nav a:hover
 
 .bleublanc
 {
+    display: flex;
     width: 343px;
     height: 144px;
     background: #FFFFFF;
