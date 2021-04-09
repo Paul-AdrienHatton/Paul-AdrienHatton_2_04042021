@@ -764,6 +764,16 @@ nav a:hover
     margin-top: 68px;
 }
 
+.activities h3
+{
+    font-family: "Raleway-Bold", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    margin-left: 19px;
+    margin-bottom: 19px;
+}
+
 .container3
 {
     display: grid;
@@ -821,7 +831,6 @@ nav a:hover
     width: 302px;
     height: 181px;
     background: #FFFFFF;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 19px 19px 0px 0px
 }
 
@@ -831,7 +840,6 @@ nav a:hover
     width: 302px;
     height: 109px;
     background: #FFFFFF;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 19px 19px 0px 0px
 }
 
@@ -880,7 +888,6 @@ nav a:hover
     width: 302px;
     height: 141px;
     background: #FFFFFF;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 19px 19px 0px 0px
 }
 
@@ -890,9 +897,112 @@ nav a:hover
     width: 302px;
     height: 153px;
     background: #FFFFFF;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 19px 19px 0px 0px
 }
 
+
+               /*  Footer */
+
+
+footer
+{
+    display: flex;
+    background: #F2F2F2;
+    height: 218px;
+    margin-top: 61px;
+    padding-top: 49px;
+    
+}
+            
+.apropos
+{   
+     font-family: "Raleway", sans-serif;
+     font-weight: 600;
+     font-size: 18px;
+     line-height: 21px; 
+     margin: 0;
+}
+            
+.hebergements
+{
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    margin: 0;
+}
+            
+.assistance
+{
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    margin: 0;
+}
+
+.about 
+{
+    margin-left: 50px;
+    margin-right: 234px;
+}
+
+.hebergements2
+{
+    margin-right: 289px;
+}
+
+@media screen and (min-width: 1660px) and
+(max-width: 2600px) 
+{
+    .accomodation
+    {
+        width: auto;
+    }
+
+    .popular
+    {
+        width: auto;
+        margin-left: auto;
+    }
+
+    .container1 .card 
+    {
+        width: 100%;
+    }
+
+    .container2 .card
+    {
+        width: 100%;
+    }
+
+    .container1 img 
+    {
+        display: flex;
+        width: 320px;
+    }
+
+    .container3 img 
+    {
+        width: auto;
+    }
+
+    .container3 .card
+    {
+        width: 400px;
+    }
+
+    .column1,.column2,.column4,.column3   
+    {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container3 img
+    {
+        width:400px;
+    } 
+    
+}
 
 
