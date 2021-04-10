@@ -911,7 +911,19 @@ footer
     height: 218px;
     margin-top: 61px;
     padding-top: 49px;
+    width: 100%;
     
+}
+
+.footer a
+{
+    text-decoration: none;
+    color: black;
+}
+
+.footer a:hover
+{
+    opacity: 20%;
 }
             
 .apropos
@@ -952,8 +964,8 @@ footer
     margin-right: 289px;
 }
 
-@media screen and (min-width: 1660px) and
-(max-width: 2600px) 
+@media screen and (min-width: 1700px) and
+(max-width: 2000px) 
 {
     .accomodation
     {
@@ -1002,7 +1014,443 @@ footer
     {
         width:400px;
     } 
+
+    .footer
+    {
+        width: 100%;
+    }
     
 }
 
+@media screen and (min-width: 1230px) and
+(max-width: 1440px) 
 
+{
+
+    header 
+    {
+        margin-right: 0px;
+    }
+
+    .accomodation
+    {
+        width: 60%;
+        margin-right: auto;
+    }
+    
+    .accomodation .card
+    {
+        width: 200px;
+    }
+
+    .container1 h3
+    {
+        font-size: 14px;
+    }
+
+    .container1
+    {
+        display: grid;
+    }
+
+    .accomodation .card img
+    {
+        width: 190px;
+    }
+
+    .popular
+    {
+        width: 30%;
+    }
+
+    .container2 
+    {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container2 .card
+    {
+        width: 320px;
+    }
+
+    .popular h2 
+    {
+        font-family: "Raleway-Bold", sans-serif;
+        padding: 32px 0 10px 20px;
+        font-weight: bold;
+        font-size: 22px;
+        line-height: 26px;
+        display: flex;
+     }
+
+     .container3 .card
+     {
+        width: 250px;
+     }
+
+     .container3 img
+     {
+         width: 100%;
+     }
+}
+
+@media screen and (min-width: 1000px) and
+(max-width: 1230px) 
+{
+    header
+    {
+        margin-right: 0px;
+    }
+
+    .filters
+    {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .main
+    {
+        display:block;
+    }
+
+    .fa-chart-line::before
+    {
+        padding-left: 550px;
+    }
+
+    .popular
+    {
+        margin-left: 50px;
+        margin-top: 39px;
+        width: 880px;
+        height: 480px;
+    }
+
+    .container2
+    {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 20px;
+    }
+
+    .soleilmatin
+    {
+        margin-right: 100px;
+    }
+
+    .activities
+    {
+        width: 880px;
+        margin-left: 50px;
+    }
+
+    .container3
+    {
+        display: grid;
+        grid-template-columns: 1FR 1FR;
+    }
+
+    .about
+    {
+        margin-left: 50px;
+        margin-right: 100px;
+    }
+        
+}
+
+@media screen and (min-width: 800px) and
+(max-width: 1000px) 
+{
+    header
+    {
+        margin-right: 0px;
+    }
+
+    .filters
+    {
+        width: 300px;
+        display: grid;      
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+        grid-row-gap: 12px;
+    }
+
+    .familial
+    {
+        grid-area: 2;
+    }
+
+    .economic
+    {
+        grid-area: 2;
+    }
+    
+    .romantic
+    {
+        grid-area: 3;
+    }
+
+    .animal
+    {
+        grid-area: 3;
+    }
+
+    .main
+    {
+        display:block;
+    }
+
+    .fa-chart-line::before
+    {
+       margin-left: 200px;
+    }
+
+    .popular
+    {
+        margin-left: 50px;
+        margin-top: 39px;
+        width: 680px;
+        height: 700px;
+    }
+
+    .container2
+    {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 20px;
+    }
+
+    .soleilmatin
+    {
+        margin-right: 20px;
+    }
+
+    .activities
+    {
+        width: 800px;
+        align-content: center;
+    }
+
+    .accomodation
+    {
+        width: 680px;
+        height: 800px;
+    }
+
+    .container1
+    {
+        display: grid;
+        grid-template-columns: 1Fr 1fr;
+    }
+
+    .container3
+    {
+        display: grid;
+        grid-template-columns: 1FR 1FR;
+        grid-column-gap: 5px;
+    }
+
+    .about
+    {
+        margin:0 50px 0 50px;
+    }
+
+    .more
+    {
+        margin: 20px 0 0 45px;
+    }
+
+    .footer
+    {
+        width: 880px;
+        height: auto;
+        display: grid;
+        grid-template-columns: 1FR 1fr;
+        grid-template-rows: 1fr 1fr;    
+    }
+
+    .hebergements2
+    {
+        margin: 0;
+    }
+
+    .assistance2
+    {
+        margin: 30 0 0 50;
+    }    
+}
+
+@media screen and (min-width: 600px) and
+(max-width: 800px) 
+
+{
+    header
+    {
+        margin-right: 0px;
+    }
+
+    .filters
+    {
+        width: 300px;
+        display: grid;      
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+        grid-row-gap: 12px;
+    }
+
+    .familial
+    {
+        grid-area: 2;
+    }
+
+    .economic
+    {
+        grid-area: 2;
+    }
+    
+    .romantic
+    {
+        grid-area: 3;
+    }
+
+    .animal
+    {
+        grid-area: 3;
+    }
+
+    .main
+    {
+        display:block;
+    }
+
+    .fa-chart-line::before
+    {
+       margin-left: 200px;
+    }
+
+    .popular
+    {
+        
+        width: 100%;
+        margin: 0;
+        border-radius: 0;
+        height: 700px;
+    }
+
+    .container2
+    {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 20px;
+    }
+
+    .soleilmatin
+    {
+        margin-right: 20px;
+    }
+
+    .container3 
+    {
+        display: block;
+    }
+
+    .container3 .card
+    {
+        width: 500px;
+        height: 300px;
+        margin-top: 30px;
+    }
+
+    .container3 img 
+    {
+        width: 500px;
+        height: 200px;
+    }
+
+    .activities h3
+    {
+        margin-top: 40px;
+    }
+
+    .container1
+    {
+        display: grid;
+        grid-template-columns: 1Fr;
+    }
+
+    .accomodation
+    {
+        width: 500px;
+        height: auto;
+    }
+
+    .container2 .card
+    {
+        width: 400px;
+        height: 300px;
+        margin-top: 30px;
+        margin-right: 0;
+    }
+
+    .container1 .card
+    {
+        width: 400px;
+        height: 300px;
+        margin-top: 30px;
+    }
+
+    .container1 img
+    {
+        width: 400px;
+        height: 200px;
+    }
+
+    .main
+    {
+        display:flex ;
+        flex-wrap: wrap;
+        order: 0;
+        height: auto;
+    }
+
+    .accomodation
+    {
+        order: 2;
+        height: auto;
+    }
+
+    .popular
+    {
+        order: 1;
+        height: auto;
+    }
+
+    .about
+    {
+        margin:0 50px 0 50px;
+    }
+
+    .more
+    {
+        margin: 20px 0 0 45px;
+    }
+
+    .footer
+    {
+        height: auto;
+        display: grid;
+        grid-template-columns: 1FR ;
+             
+    }
+
+    .hebergements2
+    {
+        margin: 30 0 0 50;
+    }
+
+    .assistance2
+    {
+        margin: 30 0 0 50;
+    }   
+}
