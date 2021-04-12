@@ -216,6 +216,18 @@ nav a:hover
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
+.search .click-on:hover
+{
+    opacity: 40%;
+    cursor: pointer;
+}
+
+.search .click-on2:hover
+{
+    opacity: 10%;
+    cursor: pointer;
+}
+
 .search .click-on2
 {
     display: none;
@@ -964,8 +976,8 @@ footer
     margin-right: 289px;
 }
 
-@media screen and (min-width: 1700px) and
-(max-width: 2000px) 
+@media screen and (min-width: 1680px) and
+(max-width: 1920px) 
 {
     .accomodation
     {
@@ -1022,7 +1034,7 @@ footer
     
 }
 
-@media screen and (min-width: 1230px) and
+@media screen and (min-width: 1280px) and
 (max-width: 1440px) 
 
 {
@@ -1288,6 +1300,26 @@ footer
     header
     {
         margin-right: 0px;
+    }
+
+    .click-on
+    {
+        display: none;
+    }
+
+    .search .click-on2
+    {
+        display: inline;
+        font-family: "Raleway-Bold", sans-serif;
+        font-weight: 500;
+        border: none;
+        background: #0065FC;
+        color: #FFFFFF;
+        width: 51px;
+        height: 51px;
+        border-top-right-radius: 13px;
+        border-bottom-right-radius: 13px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     }
 
     .filters
