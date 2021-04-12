@@ -1289,7 +1289,7 @@ footer
 
     .assistance2
     {
-        margin: 30 0 0 50;
+        margin: 30px 0 0 50px;
     }    
 }
 
@@ -1297,9 +1297,83 @@ footer
 (max-width: 800px) 
 
 {
-    header
+
+
+    nav
     {
-        margin-right: 0px;
+        flex-direction: row-reverse;
+        flex-wrap: wrap-reverse;
+    }
+    
+    nav
+    {
+        width: 70%;
+        margin-right: 42px;
+    }
+    
+    .nav1
+    {
+        justify-content: space-between;
+        margin: 0 100px 0 62px;
+        border-top: none;
+    }
+    
+    nav .slidetop1 a
+    {
+        padding: 0 40px 10px 40px;
+        margin-left: 0;
+    }
+    
+    nav .slidetop1 a:hover
+    {
+        border-bottom: solid 2px #0065FC;
+    }
+    
+    nav .slidetop1:hover
+    {
+        border-top: none;
+    }
+    
+    nav .slidetop2 a
+    {
+        padding: 0 40px 10px 40px;
+        margin-left: 0%;
+    }
+    
+    nav .slidetop2 a:hover
+    {
+        border-bottom: solid 2px #0065FC;
+    }
+    
+    nav .slidetop2:hover
+    {
+        border-top: none;
+    }
+    
+    nav .inscription a
+    {
+        margin-left: 14%;
+    }
+
+    nav .inscription:hover
+    {
+        border-top: none;
+    }
+   
+    .inscription
+    {
+        padding-top: 71px;
+    }
+
+    .search-section h1
+    {
+        font-size: 26px;
+        margin-top: 20px;
+    }
+
+    .main h2
+    {
+        font-size: 24px;
     }
 
     .click-on
@@ -1317,8 +1391,7 @@ footer
         color: #FFFFFF;
         width: 51px;
         height: 51px;
-        border-top-right-radius: 13px;
-        border-bottom-right-radius: 13px;
+        border-radius: 13px;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     }
 
@@ -1329,6 +1402,7 @@ footer
         grid-template-rows: 1fr 1fr 1fr;
         grid-template-columns: 1fr 1fr;
         grid-row-gap: 12px;
+        margin-top: 15px;
     }
 
     .familial
@@ -1361,13 +1435,33 @@ footer
        margin-left: 200px;
     }
 
+    .container2 .fa-star
+    {
+        margin-top: 30px
+    }
+
+    .container1 h3
+    {
+        font-size: 22px;
+    }
+
+    .container2 h3
+    {
+        font-size: 22px;
+    }
+
+    .container3 h3
+    {
+        font-size: 22px;
+    }
+
     .popular
     {
         
         width: 100%;
         margin: 0;
         border-radius: 0;
-        height: 700px;
+        height:auto;
     }
 
     .container2
@@ -1375,6 +1469,7 @@ footer
         display: flex;
         flex-wrap: wrap;
         margin-top: 20px;
+        margin-left: 80px;
     }
 
     .soleilmatin
@@ -1385,6 +1480,7 @@ footer
     .container3 
     {
         display: block;
+        margin-left: 80px;
     }
 
     .container3 .card
@@ -1409,33 +1505,44 @@ footer
     {
         display: grid;
         grid-template-columns: 1Fr;
+        margin-left: 80px;
     }
 
     .accomodation
     {
         width: 500px;
         height: auto;
+        background: none;
+        margin: 0 40px 0 0;
     }
 
     .container2 .card
     {
-        width: 400px;
-        height: 300px;
-        margin-top: 30px;
+        width: 500px;
+        height: 200px;
+        margin-top: 10px;
         margin-right: 0;
+        margin-bottom: 30px;
+    }
+
+    .container2 img
+    {
+        width: 190px;
+        height: 190px;
     }
 
     .container1 .card
     {
-        width: 400px;
+        width: 500px;
         height: 300px;
         margin-top: 30px;
     }
 
-    .container1 img
+    .container1 .card img
     {
-        width: 400px;
+        width: 500px;
         height: 200px;
+        margin: 0;
     }
 
     .main
@@ -1465,7 +1572,7 @@ footer
 
     .more
     {
-        margin: 20px 0 0 45px;
+        margin: 30px 0 0 80px;
     }
 
     .footer
@@ -1478,11 +1585,319 @@ footer
 
     .hebergements2
     {
-        margin: 30 0 0 50;
+        margin: 30px 0 0 50px;
     }
 
     .assistance2
     {
-        margin: 30 0 0 50;
+        margin: 30px 0 0 50px;
+    }   
+}
+
+@media screen and (min-width: 338px)
+ and (max-width: 600px)
+{
+
+    .logo
+    {
+        margin-left: 12px;
+        margin-top: 35px;
+    }
+    nav
+    {
+        flex-direction: row-reverse;
+        flex-wrap: wrap-reverse;
+    }
+    
+    nav
+    {
+        width: 70%;
+    }
+    
+    .nav1
+    {
+        justify-content: space-between;
+        margin: 0 0 0 32px;
+        border-top: none;
+    }
+    
+    nav .slidetop1 a
+    {
+        padding: 0 40px 10px 40px;
+        margin-left: 0;
+    }
+    
+    nav .slidetop1 a:hover
+    {
+        border-bottom: solid 2px #0065FC;
+    }
+    
+    nav .slidetop1:hover
+    {
+        border-top: none;
+    }
+    
+    nav .slidetop2 a
+    {
+        padding: 0 40px 10px 40px;
+        margin-left: 0%;
+    }
+    
+    nav .slidetop2 a:hover
+    {
+        border-bottom: solid 2px #0065FC;
+    }
+    
+    nav .slidetop2:hover
+    {
+        border-top: none;
+    }
+    
+    nav .inscription a
+    {
+        margin-left: 14%;
+    }
+
+    nav .inscription:hover
+    {
+        border-top: none;
+    }
+
+    .search-section
+    {
+        padding-left: 5px;
+    }
+   
+    .search-section h1
+    {
+        font-size: 22px;
+        margin-top: 20px;
+    }
+
+    .search-section h2
+    {
+        font-size: 16px;
+    }
+
+    .main h2
+    {
+        font-size: 24px;
+    }
+
+    .click-on
+    {
+        display: none;
+    }
+
+    .search .click-on2
+    {
+        display: inline;
+        font-family: "Raleway-Bold", sans-serif;
+        font-weight: 500;
+        border: none;
+        background: #0065FC;
+        color: #FFFFFF;
+        width: 51px;
+        height: 51px;
+        border-radius: 13px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    .filters
+    {
+        width: 300px;
+        display: grid;      
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+        grid-row-gap: 12px;
+        margin-top: 15px;
+    }
+
+    .familial
+    {
+        grid-area: 2;
+    }
+
+    .economic
+    {
+        grid-area: 2;
+    }
+    
+    .romantic
+    {
+        grid-area: 3;
+    }
+
+    .animal
+    {
+        grid-area: 3;
+    }
+
+    .main
+    {
+        display:block;
+    }
+
+    .fa-chart-line::before
+    {
+       margin-left: 200px;
+    }
+
+    .container2 .fa-star
+    {
+        margin-top: 30px
+    }
+
+    .container1 h3
+    {
+        font-size: 22px;
+    }
+
+    .container2 h3
+    {
+        font-size: 22px;
+    }
+
+    .container3 h3
+    {
+        font-size: 22px;
+    }
+
+    .popular
+    {
+        
+        width: 100%;
+        margin: 0;
+        border-radius: 0;
+        height:auto;
+    }
+
+    .container2
+    {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 20px;
+        margin-left: 80px;
+    }
+
+    .soleilmatin
+    {
+        margin-right: 20px;
+    }
+
+    .container3 
+    {
+        display: block;
+        margin-left: 80px;
+    }
+
+    .container3 .card
+    {
+        width: 500px;
+        height: 300px;
+        margin-top: 30px;
+    }
+
+    .container3 img 
+    {
+        width: 500px;
+        height: 200px;
+    }
+
+    .activities h3
+    {
+        margin-top: 40px;
+    }
+
+    .container1
+    {
+        display: grid;
+        grid-template-columns: 1Fr;
+        margin-left: 80px;
+    }
+
+    .accomodation
+    {
+        width: 500px;
+        height: auto;
+        background: none;
+        margin: 0 40px 0 0;
+    }
+
+    .container2 .card
+    {
+        width: 500px;
+        height: 200px;
+        margin-top: 10px;
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+
+    .container2 img
+    {
+        width: 190px;
+        height: 190px;
+    }
+
+    .container1 .card
+    {
+        width: 500px;
+        height: 300px;
+        margin-top: 30px;
+    }
+
+    .container1 .card img
+    {
+        width: 500px;
+        height: 200px;
+        margin: 0;
+    }
+
+    .main
+    {
+        display:flex ;
+        flex-wrap: wrap;
+        order: 0;
+        height: auto;
+    }
+
+    .accomodation
+    {
+        order: 2;
+        height: auto;
+    }
+
+    .popular
+    {
+        order: 1;
+        height: auto;
+    }
+
+    .about
+    {
+        margin:0 50px 0 50px;
+    }
+
+    .more
+    {
+        margin: 30px 0 0 80px;
+    }
+
+    .footer
+    {
+        height: auto;
+        display: grid;
+        grid-template-columns: 1FR ;
+             
+    }
+
+    .hebergements2
+    {
+        margin: 30px 0 0 50px;
+    }
+
+    .assistance2
+    {
+        margin: 30px 0 0 50px;
     }   
 }
