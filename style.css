@@ -2174,7 +2174,7 @@ footer
         display: flex;
         font-family: "Raleway-Bold", sans-serif;
         font-weight: bold;
-        font-size: 16px;
+        font-size: 18px;
         margin: 0px 0px 0 20px;
     }
 
@@ -2196,6 +2196,50 @@ footer
     .more
     {
         margin: 25px 0 0 15px;
+    }
+
+    .activities h2
+    {
+        font-family: "Raleway-Bold", sans-serif;
+        font-weight: bold;
+        font-size: 22px;
+        line-height: 26px;
+        padding: 40px 0 0 15px;
+        margin: 0;
+    }
+
+    .container3 
+    {
+        margin-left: 15px;
+    }
+
+    .container3 img 
+    {
+        width: 310px;
+        height: 140px;
+    }
+    
+    .container3 .card
+    {
+        width: 310px;
+        height: 210px;
+        margin-top: 30px;
+    }
+
+    .activities h3 
+    {
+        font-family: "Raleway-Bold", sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        margin-left: 19px;
+        margin-bottom: 19px;
+        margin-top: 20px;
+    }
+
+    .assistance p
+    {
+        font-weight: 900;
     }
 
 
