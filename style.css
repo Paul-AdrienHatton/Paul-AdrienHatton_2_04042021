@@ -1038,6 +1038,12 @@ and (max-width: 1920px)
     {
         margin-right: 500px;
     }
+
+    .footer
+    {
+        margin-right: 80px;
+        justify-content: space-around;
+    }
 }
 
 @media screen and (min-width: 1366px) 
@@ -1051,6 +1057,12 @@ and (max-width: 1440px)
     .image 
     {
         width: 220px;
+    }
+
+    .footer
+    {
+        margin-right: 0;
+        justify-content: space-around;
     }
 }
 
@@ -1101,7 +1113,8 @@ and (max-width: 1366px)
         grid-template-columns: 1FR 1FR;
         grid-template-rows: 1FR 1FR;
         grid-row-gap: 50px;
-        margin-left: 60px;
+        margin: 30px 40px 50px 50px;
+        justify-content: center;
     }
 
     .soleilmatin
@@ -1162,6 +1175,130 @@ and (max-width: 1366px)
     }
  
 }
+
+@media screen and (min-width: 800px) 
+and (max-width: 1024px) 
+{
+    .header
+    {
+        margin-right: 0;
+    }
+
+    .click-on
+    {
+         display: none;
+    }
+
+    .search .click-on2
+    {
+        display: inline;
+        font-family: "Raleway-Bold", sans-serif;
+        font-weight: 500;
+        border: none;
+        background: #0065FC;
+        color: #FFFFFF;
+        width: 45px;
+        height: 45px;
+        border-radius: 13px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    .filters
+    {
+        flex-wrap: wrap;
+    }
+
+    .animal 
+    {
+        margin-top: 20px;
+    }
+
+    .main
+     {
+        display:flex ;
+        flex-wrap: wrap;
+        order: 0;
+        height: auto;
+     }
+ 
+    .accomodation
+    {
+        order: 2;
+        height: auto;
+        width: 100%;
+        margin: 20px 50px 0px 50px;
+        background: none;
+    }
+ 
+    .popular
+    {
+        order: 1;
+        height: auto;
+        width: 100%;
+        margin: auto;
+        border-radius: 0%;
+    }
+
+    .fa-chart-line::before 
+    {
+        padding-left: 500px;
+    }
+
+    .container1 
+    {
+        display: flex;
+        grid-column-gap: 100px;
+        grid-row-gap: 30px;
+        margin-left: 50px;
+        flex-wrap: wrap;
+    }
+
+    .container2 
+    {
+        display: flex;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-row-gap: 30px;
+        margin: 0 40px 50px 50px;
+        flex-wrap: wrap;
+        grid-column-gap: 20px;
+    }
+
+    .activities h2 
+    {
+        font-family: "Raleway-Bold", sans-serif;
+        font-weight: bold;
+        font-size: 22px;
+        line-height: 26px;
+        margin-left: 95px;
+        margin-top: 0;
+    }
+
+    .container3 
+    {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        grid-column-gap: 50px;
+    }
+
+    footer 
+    {
+        height: 500px;
+    }
+
+    .footer
+    {
+       display: block;
+    }
+
+    .about 
+    {
+        padding-top: 50px;
+    }
+
+  
+}
+
 
 
 
