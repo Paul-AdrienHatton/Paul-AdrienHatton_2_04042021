@@ -1,3 +1,4 @@
+
 @font-face
 {
     font-family: "Raleway";
@@ -446,7 +447,7 @@ a
     font-family: "Raleway-Bold", sans-serif;
     font-weight: bold;
     font-size: 16px;
-    margin: 10px 0px 0 17px;
+    margin: 10px 0px 0 20px;
 }
 
 .container1 p
@@ -456,7 +457,7 @@ a
     font-size: 14px;
     line-height: 16px;
     align-items: center;
-    margin: 4px 0 0 16px;
+    margin: 10px 0 5px 20px;
 }
 
 .blue 
@@ -502,7 +503,7 @@ a
 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-column-gap: 17px;
+    grid-column-gap: 20px;
     grid-row-gap: 30px;
     margin-left: 36px;
     margin-right: 36px;
@@ -520,112 +521,75 @@ a
     color: black;
 }
 
+.image
+{
+    width: 235px;
+    height: 105px;
+    overflow: hidden; 
+    border-radius: 13px 13px 0 0;
+    margin: 5px 5px 5px 5px; 
+}
+
+.image img
+{
+    width: 100%;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.container1 .card
+{
+    width: 246px;
+    height: 199px;
+}
+
 .card1 
 {
     display: flex;
-    width: 246px;
-    height: 199px;
     background: #FFFFFF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 20px;
-}
-
-.card1 img
-{
-    width: 236px;
-    height: 114px;
-    border-radius: 13px 13px 0px 0px;
-    margin: 5px 5px 5px 5px;
 }
 
 .card2 
 {
     display: flex;
-    width: 246px;
-    height: 199px;
     background: #FFFFFF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 20px;
-}
-
-.card2 img
-{
-    width: 236px;
-    height: 114px;  
-    border-radius: 13px 13px 0px 0px;
-    margin: 5px 5px 5px 5px;
 }
 
 .card3
 {
     display: flex;
-    width: 246px;
-    height: 199px;
     background: #FFFFFF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 20px;
-}
-
-.card3 img
-{  
-    width: 236px;
-    height: 114px;
-    border-radius: 13px 13px 0px 0px;
-    margin: 5px 5px 5px 5px;
 }
 
 .card4
 {
     display: flex;
-    width: 246px;
-    height: 199px;
     background: #FFFFFF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 20px;
-}
-
-.card4 img
-{
-    width: 236px;
-    height: 114px;
-    border-radius: 13px 13px 0px 0px;
-    margin: 5px 5px 5px 5px;
 }
 
 .card5 
 {
     display: flex;
-    width: 246px;
-    height: 199px;
     background: #FFFFFF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 20px;
-}
-
-.card5 img 
-{
-    width: 236px;
-    height: 114px;
-    border-radius: 13px 13px 0px 0px;
-    margin: 5px 5px 5px 5px;
 }
 
 .card6 
 {
     display: flex;
-    width: 246px;
-    height: 199px;
     background: #FFFFFF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 20px;
-}
-
-.card6 img
-{
-    width: 236px;
-    height: 114px;
-    border-radius: 13px 13px 0px 0px;
-    margin: 5px 5px 5px 5px;
 }
 
 .more 
@@ -709,6 +673,34 @@ a
     margin-left: 20px;
 }
 
+.image2
+{
+    width: 127px;
+    height: 134px;
+    overflow: hidden; 
+    border-radius: 13px  0 0 13px;
+    margin: 5px 5px 5px 5px; 
+}
+
+.coeureau .image2 img
+{
+    width: 100%;
+}
+
+.soleilmatin .image2 img
+{
+    width: 100%;
+    
+}
+
+.bleublanc .image2 img
+{
+    width: 100%;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
 .soleilmatin
 {
     display: flex;
@@ -717,14 +709,6 @@ a
     background: #FFFFFF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 20px;
-}
-
-.soleilmatin img
-{
-    width: 127px;
-    height: 134px;
-    border-radius: 13px 0px 0px 13px;
-    margin: 5px 5px 5px 5px;
 }
 
 .coeureau
@@ -737,14 +721,6 @@ a
     border-radius: 20px;
 }
 
-.coeureau img 
-{   
-    width: 127px;
-    height: 134px;
-    border-radius: 13px 0px 0px 13px;
-    margin: 5px 5px 5px 5px;
-}
-
 .bleublanc
 {
     display: flex;
@@ -755,14 +731,6 @@ a
     border-radius: 20px;
 }
 
-
-.bleublanc img 
-{   
-    width: 127px;
-    height: 134px;
-    border-radius: 13px 0px 0px 13px;
-    margin: 5px 5px 5px 5px;
-}
 
                 /* Section activities */
         
@@ -976,1285 +944,4 @@ footer
     margin-right: 289px;
 }
 
-                    /*BIG SCREEN*/
 
-
-@media screen and (min-width: 1680px) and
-(max-width: 1920px) 
-{
-    .accomodation
-    {
-        width: auto;
-    }
-
-    .popular
-    {
-        width: auto;
-        margin-left: auto;
-    }
-
-    .container1 .card 
-    {
-        width: 100%;
-    }
-
-    .container2 .card
-    {
-        width: 100%;
-    }
-
-    .container1 img 
-    {
-        display: flex;
-        width: 320px;
-    }
-
-    .container3 img 
-    {
-        width: auto;
-    }
-
-    .container3 .card
-    {
-        width: 400px;
-    }
-
-    .column1,.column2,.column4,.column3   
-    {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .container3 img
-    {
-        width:400px;
-    } 
-
-    .footer
-    {
-        width: 100%;
-    }
-    
-}
-
-                        /*Most used resolution*/
-
-@media screen and (min-width: 1230px) and
-(max-width: 1440px) 
-
-{
-
-    header 
-    {
-        margin-right: 0px;
-    }
-
-    .accomodation
-    {
-        width: 60%;
-        margin-right: auto;
-    }
-    
-    .accomodation .card
-    {
-        width: 200px;
-    }
-
-    .container1 h3
-    {
-        font-size: 14px;
-    }
-
-    .container1
-    {
-        display: grid;
-    }
-
-    .accomodation .card img
-    {
-        width: 190px;
-    }
-
-    .popular
-    {
-        width: 30%;
-    }
-
-    .container2 
-    {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .container2 .card
-    {
-        width: 320px;
-    }
-
-    .popular h2 
-    {
-        font-family: "Raleway-Bold", sans-serif;
-        padding: 32px 0 10px 20px;
-        font-weight: bold;
-        font-size: 22px;
-        line-height: 26px;
-        display: flex;
-     }
-
-     .container3 .card
-     {
-        width: 250px;
-     }
-
-     .container3 img
-     {
-         width: 100%;
-     }
-}
-
-                    /*Smallest medium screen*/
-
-@media screen and (min-width: 1000px) and
-(max-width: 1230px) 
-{
-    header
-    {
-        margin-right: 0px;
-    }
-
-    .filters
-    {
-        display: flex;
-        flex-wrap: wrap;
-    }
-
-    .main
-    {
-        display:block;
-    }
-
-    .fa-chart-line::before
-    {
-        padding-left: 550px;
-    }
-
-    .popular
-    {
-        margin-left: 50px;
-        margin-top: 39px;
-        width: 880px;
-        height: 480px;
-    }
-
-    .container2
-    {
-        display: flex;
-        flex-wrap: wrap;
-        margin-top: 20px;
-    }
-
-    .soleilmatin
-    {
-        margin-right: 100px;
-    }
-
-    .activities
-    {
-        width: 880px;
-        margin-left: 50px;
-    }
-
-    .container3
-    {
-        display: grid;
-        grid-template-columns: 1FR 1FR;
-    }
-
-    .about
-    {
-        margin-left: 50px;
-        margin-right: 100px;
-    }
-
-        
-}
-
-                    /*Most used tablet*/
-
-@media screen and (min-width: 800px) and
-(max-width: 1000px) 
-{
-    header
-    {
-        margin-right: 0px;
-    }
-
-    .filters
-    {
-        width: 300px;
-        display: grid;      
-        grid-template-rows: 1fr 1fr 1fr;
-        grid-template-columns: 1fr 1fr;
-        grid-row-gap: 12px;
-    }
-
-    .familial
-    {
-        grid-area: 2;
-    }
-
-    .economic
-    {
-        grid-area: 2;
-    }
-    
-    .romantic
-    {
-        grid-area: 3;
-    }
-
-    .animal
-    {
-        grid-area: 3;
-    }
-
-    .main
-    {
-        display:block;
-    }
-
-    .fa-chart-line::before
-    {
-       margin-left: 200px;
-    }
-
-    .popular
-    {
-        margin-left: 50px;
-        margin-top: 39px;
-        width: 680px;
-        height: 700px;
-    }
-
-    .container2
-    {
-        display: flex;
-        flex-wrap: wrap;
-        margin-top: 20px;
-    }
-
-    .soleilmatin
-    {
-        margin-right: 20px;
-    }
-
-    .activities
-    {
-        width: 800px;
-        align-content: center;
-    }
-
-    .accomodation
-    {
-        width: 680px;
-        height: 800px;
-    }
-
-    .container1
-    {
-        display: grid;
-        grid-template-columns: 1Fr 1fr;
-    }
-
-    .container3
-    {
-        display: grid;
-        grid-template-columns: 1FR 1FR;
-        grid-column-gap: 5px;
-    }
-
-    .about
-    {
-        margin:0 50px 0 50px;
-    }
-
-    .more
-    {
-        margin: 20px 0 0 45px;
-    }
-
-    .footer
-    {
-        
-        height: auto;
-        display: grid;
-        grid-template-columns: 1FR 1fr;
-        grid-template-rows: 1fr 1fr;    
-    }
-
-    .hebergements2
-    {
-        margin: 0;
-    }
-
-    .assistance2
-    {
-        margin: 30px 0 0 50px;
-    }    
-}
-
-                    /*Tablet used*/
-
-@media screen and (min-width: 600px) and
-(max-width: 800px) 
-
-{
-
-
-    nav
-    {
-        flex-direction: row-reverse;
-        flex-wrap: wrap-reverse;
-    }
-    
-    nav
-    {
-        width: 70%;
-        margin-right: 42px;
-    }
-    
-    .nav1
-    {
-        justify-content: space-between;
-        margin: 0 100px 0 62px;
-        border-top: none;
-    }
-    
-    nav .slidetop1 a
-    {
-        padding: 0 40px 10px 40px;
-        margin-left: 0;
-    }
-    
-    nav .slidetop1 a:hover
-    {
-        border-bottom: solid 2px #0065FC;
-    }
-    
-    nav .slidetop1:hover
-    {
-        border-top: none;
-    }
-    
-    nav .slidetop2 a
-    {
-        padding: 0 40px 10px 40px;
-        margin-left: 0%;
-    }
-    
-    nav .slidetop2 a:hover
-    {
-        border-bottom: solid 2px #0065FC;
-    }
-    
-    nav .slidetop2:hover
-    {
-        border-top: none;
-    }
-    
-    nav .inscription a
-    {
-        margin-left: 14%;
-    }
-
-    nav .inscription:hover
-    {
-        border-top: none;
-    }
-   
-    .inscription
-    {
-        padding-top: 71px;
-    }
-
-    .search-section h1
-    {
-        font-size: 26px;
-        margin-top: 20px;
-    }
-
-    .main h2
-    {
-        font-size: 24px;
-    }
-
-    .click-on
-    {
-        display: none;
-    }
-
-    .search .click-on2
-    {
-        display: inline;
-        font-family: "Raleway-Bold", sans-serif;
-        font-weight: 500;
-        border: none;
-        background: #0065FC;
-        color: #FFFFFF;
-        width: 51px;
-        height: 51px;
-        border-radius: 13px;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    }
-
-    .filters
-    {
-        width: 300px;
-        display: grid;      
-        grid-template-rows: 1fr 1fr 1fr;
-        grid-template-columns: 1fr 1fr;
-        grid-row-gap: 12px;
-        margin-top: 15px;
-    }
-
-    .familial
-    {
-        grid-area: 2;
-    }
-
-    .economic
-    {
-        grid-area: 2;
-    }
-    
-    .romantic
-    {
-        grid-area: 3;
-    }
-
-    .animal
-    {
-        grid-area: 3;
-    }
-
-    .main
-    {
-        display:block;
-    }
-
-    .fa-chart-line::before
-    {
-       margin-left: 200px;
-    }
-
-    .container2 .fa-star
-    {
-        margin-top: 30px
-    }
-
-    .container1 h3
-    {
-        font-size: 22px;
-    }
-
-    .container2 h3
-    {
-        font-size: 22px;
-    }
-
-    .container3 h3
-    {
-        font-size: 22px;
-    }
-
-    .popular
-    {
-        
-        width: 100%;
-        margin: 0;
-        border-radius: 0;
-        height:auto;
-    }
-
-    .container2
-    {
-        display: flex;
-        flex-wrap: wrap;
-        margin-top: 20px;
-        margin-left: 80px;
-    }
-
-    .soleilmatin
-    {
-        margin-right: 20px;
-    }
-
-    .container3 
-    {
-        display: block;
-        margin-left: 80px;
-    }
-
-    .container3 .card
-    {
-        width: 500px;
-        height: 300px;
-        margin-top: 30px;
-    }
-
-    .container3 img 
-    {
-        width: 500px;
-        height: 200px;
-    }
-
-    .activities h3
-    {
-        margin-top: 40px;
-    }
-
-    .container1
-    {
-        display: grid;
-        grid-template-columns: 1Fr;
-        margin-left: 80px;
-    }
-
-    .accomodation
-    {
-        width: 500px;
-        height: auto;
-        background: none;
-        margin: 0 40px 0 0;
-    }
-
-    .container2 .card
-    {
-        width: 500px;
-        height: 200px;
-        margin-top: 10px;
-        margin-right: 0;
-        margin-bottom: 30px;
-    }
-
-    .container2 img
-    {
-        width: 190px;
-        height: 190px;
-    }
-
-    .container1 .card
-    {
-        width: 500px;
-        height: 300px;
-        margin-top: 30px;
-    }
-
-    .container1 .card img
-    {
-        width: 500px;
-        height: 200px;
-        margin: 0;
-    }
-
-    .main
-    {
-        display:flex ;
-        flex-wrap: wrap;
-        order: 0;
-        height: auto;
-    }
-
-    .accomodation
-    {
-        order: 2;
-        height: auto;
-    }
-
-    .popular
-    {
-        order: 1;
-        height: auto;
-    }
-
-    .about
-    {
-        margin:0 50px 0 50px;
-    }
-
-    .more
-    {
-        margin: 30px 0 0 80px;
-    }
-
-    .footer
-    {
-        height: auto;
-        display: grid;
-        grid-template-columns: 1FR ;
-             
-    }
-
-    .hebergements2
-    {
-        margin: 30px 0 0 50px;
-    }
-
-    .assistance2
-    {
-        margin: 30px 0 0 50px;
-    }   
-}
-
-                        /*Iphone 8*/
-
-@media screen and (min-width: 338px)
- and (max-width: 600px)
-{
-
-    .logo
-    {
-        margin-left: 12px;
-        margin-top: 35px;
-    }
-    nav
-    {
-        flex-direction: row-reverse;
-        flex-wrap: wrap-reverse;
-    }
-    
-    nav
-    {
-        width: 70%;
-    }
-    
-    .nav1
-    {
-        justify-content: space-between;
-        margin: 0 0 0 32px;
-        border-top: none;
-    }
-    
-    nav .slidetop1 a
-    {
-        padding: 0 4px 10px 65px;
-        margin-left: 0;
-        border-bottom: solid 2px #f2f2f2;
-    }
-    
-    nav .slidetop1 a:hover
-    {
-        border-bottom: solid 2px #0065FC;
-    }
-    
-    nav .slidetop1:hover
-    {
-        border-top: none;
-    }
-    
-    nav .slidetop2 a
-    {
-        padding: 0 50px 10px 60px;
-        margin-left: 0%;
-        border-bottom: solid 2px #f2f2f2;
-    }
-    
-    nav .slidetop2 a:hover
-    {
-        border-bottom: solid 2px #0065FC;
-    }
-    
-    nav .slidetop2:hover
-    {
-        border-top: none;
-    }
-    
-    nav .inscription a
-    {
-        margin-left: 14%;
-    }
-
-    nav .inscription:hover
-    {
-        border-top: none;
-    }
-
-    .search-section
-    {
-        padding-left: 5px;
-    }
-   
-    .search-section h1
-    {
-        font-size: 22px;
-        margin-top: 35px;
-    }
-
-    .search-section h2
-    {
-        font-size: 16px;
-    }
-
-    .main h2
-    {
-        font-size: 24px;
-    }
-
-    .click-on
-    {
-        display: none;
-    }
-
-    .search .fa-map-marker-alt 
-    {
-        background-color: #F2F2F2;
-        width: 45px;
-        height: 45px;
-        border-radius: 15px 0 0 15px;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    }
-
-    .search .fa-map-marker-alt::before
-    {
-        position: absolute;
-        padding: 13px 0px 0px 16px;
-        width: 13px;
-        height: 18px;
-        font-size: 20px;
-    }
-
-    .search input 
-    {
-        width: 215px;
-        height: 45px;
-    }
-
-    .search .click-on2
-    {
-        display: inline;
-        font-family: "Raleway-Bold", sans-serif;
-        font-weight: 500;
-        border: none;
-        background: #0065FC;
-        color: #FFFFFF;
-        width: 45px;
-        height: 45px;
-        border-radius: 13px;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    }
-
-    .filters 
-    {
-        max-width: 330px;
-        display: grid;
-        grid-template-rows: 1fr 1fr 1fr 1fr;
-        grid-row-gap: 12px;
-        margin-top: 15px;
-    }
-
-    .economic 
-    {   
-        grid-area: 2;
-        display: flex;
-        align-items: center;
-        border: solid 3px #f2f2f2;
-        border-radius: 50px;
-        border-left: none;
-        width: 170px;
-        height: 42px;
-        margin-left: 10px;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    }
-
-    .eco 
-    {
-        padding-left: 12px;
-        margin: 0;
-        font-family: "Raleway-Bold", sans-serif;
-        font-weight: 700;
-        font-size: 16px;
-    }
-    
-    .bubble1 
-    {
-        color: #0065FC;
-        background: #deebff;
-        border-radius: 50%;
-        width: 42px;
-        height: 42px;
-        padding: 13px 0px 0px 13px;
-        font-size: 15px;
-    }
-
-    .familial 
-    {
-        grid-area: 2;
-        display: flex;
-        align-items: center;
-        border: solid 3px #F2F2F2;
-        border-radius: 50px;
-        border-left: none;
-        width: 130px;
-        height: 42px;
-        margin-left: -40px;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    }
-
-    .fam 
-    {
-        padding-left: 12px;
-        margin: 0;
-        font-family: "Raleway-Bold", sans-serif;
-        font-weight: 700;
-        font-size: 16px;
-    }
-
-    .bubble2 
-    {
-        color: #0065FC;
-        background: #deebff;
-        border-radius: 50%;
-        width: 42px;
-        height: 42px;
-        padding: 12px 0 0 15px;
-        font-size: 15px;
-    }
-
-    .romantic
-    {
-        grid-area: 3;
-        display: flex;
-        align-items: center;
-        border: solid 3px #f2f2f2;
-        border-radius: 50px;
-        border-left: none;
-        width: 160px;
-        height: 42px;
-        margin-left: 10px;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    }
-
-    .rom 
-    {
-        padding-left: 12px;
-        margin: 0;
-        font-family: "Raleway-Bold", sans-serif;
-        font-weight: 700;
-        font-size: 16px;
-    }
-
-    .bubble3 
-    {
-        color: #0065FC;
-        background: #d3e5fd;
-        border-radius: 50%;
-        width: 42px;
-        height: 42px;
-        padding: 14px 0px 0px 14px;
-        font-size: 15px;    
-    }
-
-    .animal 
-    {
-        grid-area: 4;
-        display: flex;
-        align-items: center;
-        border: solid 3px #F2F2F2;
-        border-radius: 50px;
-        border-left: none;
-        width: 220px;
-        height: 42px;
-        margin-left: 10px;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    }
-
-    .ani
-    {
-        padding-left: 12px;
-        margin: 0;
-        font-family: "Raleway-Bold", sans-serif;
-        font-weight: 700;
-        font-size: 16px;
-    }
-
-    .bubble4
-    {
-        color: #0065FC;
-        background: #deebff;
-        border-radius: 50%;
-        width: 42px;
-        height: 42px;
-        font-size: 15px;
-        padding: 13px 0px 0px 13px;
-    }
-
-    .fa-info 
-    {
-        color: #0065FC;
-        border: 1.5px solid #F2F2F2;
-        border-radius: 50%;
-        width: 26px;
-        height: 22px;
-        margin-right: 5px;
-        font-size: 12px;
-        padding: 3px 0 2px 8px;
-    }
-
-    .main
-    {
-        display:block;
-    }
-
-    .fa-chart-line::before
-    {
-       margin-left: 200px;
-    }
-
-    .container2 .fa-star
-    {
-        margin-top: 30px
-    }
-
-    .container1 h3
-    {
-        font-size: 22px;
-    }
-
-    .container2 h3
-    {
-        font-size: 22px;
-    }
-
-    .container3 h3
-    {
-        font-size: 22px;
-    }
-
-    .popular
-    {
-        
-        width: 100%;
-        margin: 0;
-        border-radius: 0;
-        height:auto;
-    }
-
-    .container2
-    {
-        display: flex;
-        flex-wrap: wrap;
-        margin-top: 20px;
-        margin-left: 80px;
-    }
-
-    .soleilmatin
-    {
-        margin-right: 20px;
-    }
-
-    .container3 
-    {
-        display: block;
-        margin-left: 80px;
-    }
-
-    .container3 .card
-    {
-        width: 500px;
-        height: 300px;
-        margin-top: 30px;
-    }
-
-    .container3 img 
-    {
-        width: 500px;
-        height: 200px;
-    }
-
-    .activities h3
-    {
-        margin-top: 40px;
-    }
-
-    .container1
-    {
-        display: grid;
-        grid-template-columns: 1Fr;
-        margin-left: 80px;
-    }
-
-    .accomodation
-    {
-        width: 500px;
-        height: auto;
-        background: none;
-        margin: 0 40px 0 0;
-    }
-
-    .container2 .card
-    {
-        width: 500px;
-        height: 200px;
-        margin-top: 10px;
-        margin-right: 0;
-        margin-bottom: 30px;
-    }
-
-    .container2 img
-    {
-        width: 190px;
-        height: 190px;
-    }
-
-    .container1 .card
-    {
-        width: 500px;
-        height: 300px;
-        margin-top: 30px;
-    }
-
-    .container1 .card img
-    {
-        width: 500px;
-        height: 200px;
-        margin: 0;
-    }
-
-    .main
-    {
-        display:flex ;
-        flex-wrap: wrap;
-        order: 0;
-        height: auto;
-    }
-
-    .accomodation
-    {
-        order: 2;
-        height: auto;
-    }
-
-    .popular
-    {
-        order: 1;
-        height: auto;
-    }
-
-    .about
-    {
-        margin:0 50px 0 50px;
-    }
-
-    .more
-    {
-        margin: 30px 0 0 80px;
-    }
-
-    .footer
-    {
-        height: auto;
-        display: grid;
-        grid-template-columns: 1FR ;
-             
-    }
-
-    .hebergements2
-    {
-        margin: 30px 0 0 50px;
-    }
-
-    .assistance2
-    {
-        margin: 30px 0 0 50px;
-    }   
-
-    .fa-info 
-    {
-        color: #0065FC;
-        border: 1.5px solid #F2F2F2;
-        border-radius: 50%;
-        width: 26px;
-        height: 22px;
-        margin-right: 5px;
-        font-size: 12px;
-        padding: 3px 0 2px 8px;
-    }
-
-    .informations
-    {
-        margin: 10px 10px 25px 10px;
-    }
-
-    .popular h2
-    {
-        font-family: "Raleway-Bold", sans-serif;
-        padding: 30px 0 0 15px;
-        font-weight: bold;
-        font-size: 20px;
-        line-height: 26px;
-    }
-
-    .fa-chart-line::before 
-    {
-        margin-left: 0;
-        padding-left: 80px;
-    }
-
-    .container2 img
-    {
-        width: 120px;
-        height: 120px;
-    }
-
-    .container2 
-    {
-        display: flex;
-        flex-wrap: wrap;
-        margin-top: 0px;
-        margin-left: 15px;
-        margin-right: 15px;
-    }
-
-    .container2 .card
-    {
-        height: 130px;
-        margin-bottom: 0px;
-        margin-top: 0;
-    }
-
-    .container2 h3
-    {
-        font-size: 16px;
-        margin-left: 15px;
-        margin-right: 10px;
-    }
-
-    .container2 p 
-    {
-        margin: 12px 0 0px 0;
-        margin-left: 0px;
-        margin-left: 15px;
-        font-size: 14px;
-    }
-
-    .popular
-    {
-        padding-bottom: 40px;
-    }
-
-    .container2 .first
-    {
-        margin-left: 13px;
-    }
-
-    .container2 .fa-star
-    {
-        margin-top: 20px;
-    }
-
-    .accomodation h2 
-    {
-        font-family: "Raleway-Bold", sans-serif;
-        padding: 20px 0 0 15px;
-        font-weight: bold;
-        font-size: 22px;
-        line-height: 26px;
-    }
-
-    .container1 .card img
-    {
-        width: 300px;
-        height: 120px;
-        margin: 5PX 5PX 5PX 5PX;
-    }
-
-    .accomodation 
-    {
-        width: 500px;
-        height: auto;
-        background: none;
-        margin: 0 40px 0 0;
-    }
-    
-    .container1 .card 
-    {
-        width: 310px;
-        height: 210px;
-        margin-top: 0;
-    }
-
-    .container1 h3 
-    {
-        display: flex;
-        font-family: "Raleway-Bold", sans-serif;
-        font-weight: bold;
-        font-size: 18px;
-        margin: 0px 0px 0 20px;
-    }
-
-    .container1 p
-    {
-        display: flex;
-        font-weight: 300;
-        font-size: 14px;
-        line-height: 16px;
-        align-items: center;
-        margin: 8px 0 8px 20px;
-    }
-
-    .container1 
-    {
-        margin-left: 15px;
-    }
-
-    .more
-    {
-        margin: 25px 0 0 15px;
-    }
-
-    .activities h2
-    {
-        font-family: "Raleway-Bold", sans-serif;
-        font-weight: bold;
-        font-size: 22px;
-        line-height: 26px;
-        padding: 40px 0 0 15px;
-        margin: 0;
-    }
-
-    .container3 
-    {
-        margin-left: 15px;
-    }
-
-    .container3 img 
-    {
-        width: 310px;
-        height: 140px;
-    }
-    
-    .container3 .card
-    {
-        width: 310px;
-        height: 210px;
-        margin-top: 30px;
-    }
-
-    .activities h3 
-    {
-        font-family: "Raleway-Bold", sans-serif;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 18px;
-        margin-left: 19px;
-        margin-bottom: 19px;
-        margin-top: 20px;
-    }
-
-    .assistance p
-    {
-        font-weight: 900;
-    }
-
-
-}
