@@ -494,9 +494,9 @@ a
 {
     background: #F2F2F2;
     border-radius: 19px;
-    width: 880px;
+    width: 60%;
     height: 626px;
-    margin: 0px 40px 0px 50px;
+    margin: 0px auto 0px 50px;
 }
 
 .container1
@@ -653,7 +653,7 @@ a
 
 .mostpopular
 {
-    display: flex;    
+    display: flex;   
 }
 
 .fa-chart-line::before
@@ -951,4 +951,83 @@ footer
     margin-right: 289px;
 }
 
+@media screen and (max-width: 1920px) 
+
+{
+    .container1 .card
+    {
+        width: 300px;
+    }
+
+    .container1 h3 
+    {
+        font-size: 19px;  
+    }
+
+    .container2 h3 
+    {
+        font-size: 19px;  
+    }
+
+    .container2 p 
+    {
+        margin: 12px 0 29px 20px;
+    }
+
+    .image 
+    {
+        width: 290px;
+    }
+
+    .popular 
+    {
+        width: 30%;
+        margin-right: auto;
+    }
+
+    .container2 .card
+    {
+        width: auto;
+    }
+
+    .fa-chart-line::before 
+    {
+        padding-left: 250px;
+    }
+
+    .container3
+    {
+        margin-right: 0;
+    }
+
+    .activities h3 
+    {
+        font-size: 19px;    
+    }
+
+    .apropos 
+    {
+        font-size: 20px;   
+    }
+
+    .hebergements
+    {
+        font-size: 20px;   
+    }
+
+    .assistance
+    {
+        font-size: 20px;   
+    }
+
+    .about
+    {
+        margin-right: 500px;
+    }
+
+    .hebergements2
+    {
+        margin-right: 500px;
+    }
+}
 
