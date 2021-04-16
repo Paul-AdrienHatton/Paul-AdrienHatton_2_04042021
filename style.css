@@ -263,7 +263,7 @@ a
     width: 192px;
     height: 50px;
     margin-left: 23px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
 }
 
 .economic p:hover
@@ -300,7 +300,7 @@ a
     width: 146px;
     height: 50px;
     margin-left: 23px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
 }
 
 .familial p:hover
@@ -339,7 +339,7 @@ a
     width: 187px;
     height: 50px;
     margin-left: 23px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
 }
 
 .romantic p:hover
@@ -377,7 +377,7 @@ a
     width: 243px;
     height: 50px;
     margin-left: 23px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
 }
 
 .animal p:hover
@@ -1438,8 +1438,6 @@ and (max-width: 768px)
         height: auto;
     }
 
-   
-
     .popular
     {
         order: 1;
@@ -1486,8 +1484,6 @@ and (max-width: 768px)
         margin-bottom: 10px;
     }
 
-
-
     .accomodation 
     {
         order: 2;
@@ -1504,7 +1500,6 @@ and (max-width: 768px)
         grid-template-columns: 1fr;
         margin-left: 100px;
     }
-
 
     .container1 .card
     {
@@ -1652,6 +1647,142 @@ and (max-width: 768px)
     }
 
 }
+
+@media screen and (min-width: 414px) 
+and (max-width: 601px) 
+{
+
+    header
+    {
+        margin-right: 0;
+    }
+
+    .logo
+    {
+        margin-top: 60px;
+    }
+
+    nav
+    {
+        flex-direction: row-reverse;
+        flex-wrap: wrap-reverse;
+    }
+    
+    nav
+    {
+        width: 70%;
+        
+    }
+
+    nav a 
+    {
+        padding: 15px 100px 0 40px;
+    }   
+
+    .nav1
+    {
+        justify-content: space-between;
+        margin-right: 100px;
+        border-top: none;
+    }
+    
+    nav .slidetop1 a
+    {
+        padding: 0 40px 10px 40px;
+        margin-left: 0;
+        border-bottom: solid 2px #f2f2f2;
+    }
+    
+    nav .slidetop1 a:hover
+    {
+        border-bottom: solid 2px #0065FC;
+    }   
+    
+    nav .slidetop1:hover
+    {
+        border-top: none;
+    }
+    
+    nav .slidetop2 a
+    {
+        padding: 0 40px 10px 40px;
+        margin-left: 0;
+        border-bottom: solid 2px #f2f2f2;
+    }
+    
+    nav .slidetop2 a:hover
+    {
+        border-bottom: solid 2px #0065FC;
+    }
+    
+    nav .slidetop2:hover
+    {
+        border-top: none;
+    }
+    
+    nav .inscription a
+    {
+        margin-left: 0;
+    }
+
+    nav .inscription:hover
+    {
+        border-top: none;
+    }
+   
+    .inscription
+    {
+        padding-top: 71px;
+    }
+
+    .search-section h1
+    {
+        font-size: 26px;
+        margin-top: 20px;
+    }
+
+    .search-section 
+    {
+        padding-left: 20px;
+    }
+    
+    .search-section h1 
+    {
+        margin-top: 30px;
+    }
+
+    .click-on
+    {
+        display: none;
+    }
+
+    .search .click-on2
+    {
+        display: inline;
+        font-family: "Raleway-Bold", sans-serif;
+        font-weight: 500;
+        border: none;
+        background: #0065FC;
+        color: #FFFFFF;
+        width: 51px;
+        height: 51px;
+        border-radius: 13px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    .filters
+    {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .filters p
+    {
+         font-size: 16px;
+    }
+}
+
+    
 
 
 
