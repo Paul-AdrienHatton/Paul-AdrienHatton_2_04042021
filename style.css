@@ -1,4 +1,3 @@
-
 @font-face
 {
     font-family: "Raleway";
@@ -50,9 +49,7 @@ body
     padding: 0;
 }
 
-
                  /* Header */
-
 header
 {
     display: flex;
@@ -130,9 +127,7 @@ nav a:hover
     font-size: 17px;
 }
 
-
               /* Search Section */
-
 .search-section
 {
     padding-left: 55px;
@@ -165,7 +160,6 @@ a
     text-decoration: none;
     color: black;
 }
-
 
 .search .fa-map-marker-alt
 {
@@ -320,7 +314,6 @@ a
     font-size: 20px;
 }
 
-
 .fam
 {
     padding-left: 12px;
@@ -426,9 +419,7 @@ a
     margin: 10px 0 25px 10px;
 }
 
-
                /*  Main/accomodation */
-
 .main 
 {
     display: flex;
@@ -491,7 +482,6 @@ a
     font-size: 12px;
 }
 
-
 .accomodation
 {
     background: #F2F2F2;
@@ -523,7 +513,7 @@ a
     color: black;
 }
 
-.image
+.picture
 {
     width: 235px;
     height: 105px;
@@ -532,7 +522,7 @@ a
     margin: 5px 5px 5px 5px; 
 }
 
-.image img
+.picture img
 {
     width: 100%;
     position: relative;
@@ -544,50 +534,6 @@ a
 {
     width: 246px;
     height: 199px;
-}
-
-.card1 
-{
-    display: flex;
-    background: #FFFFFF;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 20px;
-}
-
-.card2 
-{
-    display: flex;
-    background: #FFFFFF;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 20px;
-}
-
-.card3
-{
-    display: flex;
-    background: #FFFFFF;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 20px;
-}
-
-.card4
-{
-    display: flex;
-    background: #FFFFFF;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 20px;
-}
-
-.card5 
-{
-    display: flex;
-    background: #FFFFFF;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 20px;
-}
-
-.card6 
-{
     display: flex;
     background: #FFFFFF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -604,10 +550,7 @@ a
     line-height: 21px;
 }
 
-
           /* Main-Aside-Mostpopular */
-
-
 .popular
 {
     background: #F2F2F2;
@@ -675,7 +618,7 @@ a
     margin-left: 20px;
 }
 
-.image2
+.picture2
 {
     width: 127px;
     height: 134px;
@@ -684,18 +627,18 @@ a
     margin: 5px 5px 5px 5px; 
 }
 
-.coeureau .image2 img
+.heartwater .picture2 img
 {
     width: 100%;
 }
 
-.soleilmatin .image2 img
+.morningsun .picture2 img
 {
     width: 100%;
     
 }
 
-.bleublanc .image2 img
+.bluewhite .picture2 img
 {
     width: 100%;
     position: relative;
@@ -703,7 +646,7 @@ a
     transform: translateY(-50%);
 }
 
-.soleilmatin
+.morningsun
 {
     display: flex;
     width: 343px;
@@ -713,7 +656,7 @@ a
     border-radius: 20px;
 }
 
-.coeureau
+.heartwater
 {
     display: flex;
     width: 343px;
@@ -723,7 +666,7 @@ a
     border-radius: 20px;
 }
 
-.bleublanc
+.bluewhite
 {
     display: flex;
     width: 343px;
@@ -734,8 +677,7 @@ a
 }
 
 
-                /* Section activities */
-        
+                /* Section activities */    
 .activities h2
 {
     font-family: "Raleway-Bold", sans-serif;
@@ -811,7 +753,7 @@ a
     transform: translateY(-50%);
 }
 
-.imgdamegarde
+.imgladywatch
 {
     width: 302px;
     height: 141px;
@@ -819,7 +761,7 @@ a
     border-radius: 19px 19px 0 0
 }
 
-.imgdamegarde img
+.imgladywatch img
 {
     width: 100%;
     position: relative;
@@ -839,7 +781,7 @@ a
     position: relative;
 }
 
-.fortpomegues
+.castle
 {
     display: block;
     width: 302px;
@@ -870,7 +812,7 @@ a
     border-radius: 20px;
 }
 
-.damegarde
+.ladywatch
 {
     display: block;
     width: 302px;
@@ -892,8 +834,6 @@ a
 }
 
                /*  Footer */
-
-
 footer
 {
     background: #F2F2F2;
@@ -916,7 +856,7 @@ footer
     margin-top: 50px;
 }
 
-.hebergements
+.hosting
 {
     margin-top: 50px;
 }
@@ -939,14 +879,14 @@ footer
             
 .apropos
 {   
-     font-family: "Raleway", sans-serif;
-     font-weight: 600;
-     font-size: 18px;
-     line-height: 21px; 
-     margin: 0;
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px; 
+    margin: 0;
 }
             
-.hebergements2
+.hosting2
 {
     font-family: "Raleway", sans-serif;
     font-weight: 600;
@@ -964,10 +904,8 @@ footer
     margin: 0;
 }
 
-
-
 @media screen and (min-width: 1680px) 
-and (max-width: 1920px) 
+and (max-width: 3000px) 
 
 {
     .container1 .card
@@ -990,7 +928,7 @@ and (max-width: 1920px)
         margin: 12px 0 29px 20px;
     }
 
-    .image 
+    .picture 
     {
         width: 290px;
     }
@@ -1021,7 +959,7 @@ and (max-width: 1920px)
         font-size: 20px;   
     }
 
-    .hebergements
+    .hosting
     {
         font-size: 20px;   
     }
@@ -1029,22 +967,6 @@ and (max-width: 1920px)
     .assistance
     {
         font-size: 20px;   
-    }
-
-    .about
-    {
-        margin-right: 500px;
-    }
-
-    .hebergements2
-    {
-        margin-right: 500px;
-    }
-
-    .footer
-    {
-        margin-right: 80px;
-        justify-content: space-around;
     }
 }
 
@@ -1056,7 +978,7 @@ and (max-width: 1440px)
         width: 230px;
     }
 
-    .image 
+    .picture 
     {
         width: 220px;
     }
@@ -1097,7 +1019,7 @@ and (max-width: 1366px)
         height: 250px;
     }
 
-    .container1 .image
+    .container1 .picture
     {
         width: 340px;
         height: 150px;
@@ -1119,17 +1041,17 @@ and (max-width: 1366px)
         justify-content: center;
     }
 
-    .soleilmatin
+    .morningsun
     {
         width: 80%;
     }
 
-    .coeureau
+    .heartwater
     {
         width: 80%;
     }
 
-    .bleublanc
+    .bluewhite
     {
         width: 80%;
     }
@@ -1175,7 +1097,6 @@ and (max-width: 1366px)
         margin-right: 0;
         justify-content: space-around;
     }
- 
 }
 
 @media screen and (min-width: 768px) 
@@ -1188,7 +1109,7 @@ and (max-width: 1024px)
 
     .click-on
     {
-         display: none;
+        display: none;
     }
 
     .search .click-on2
@@ -1303,7 +1224,6 @@ and (max-width: 1024px)
 @media screen and (min-width: 601px) 
 and (max-width: 768px) 
 {
-    
     nav
     {
         flex-direction: row-reverse;
@@ -1508,7 +1428,7 @@ and (max-width: 768px)
         height: 300px;
     }
 
-    .image
+    .picture
     {
         width: 390px;
         height: 200px;
@@ -1517,7 +1437,7 @@ and (max-width: 768px)
         margin: 5px 5px 5px 5px; 
     }
 
-    .image img
+    .picture img
     {
         width: 100%;
         position: relative;
@@ -1584,7 +1504,7 @@ and (max-width: 768px)
         transform: translateY(-50%);
     }
 
-    .imgdamegarde
+    .imgladywatch
     {
         width: 400px;
         height: 200px;
@@ -1592,7 +1512,7 @@ and (max-width: 768px)
         border-radius: 19px 19px 0 0
     }
 
-    .imgdamegarde img
+    .imgladywatch img
     {
         width: 100%;
         position: relative;
@@ -1646,10 +1566,9 @@ and (max-width: 768px)
     {
         height: 500px;    
     }
-
 }
 
-@media screen and (min-width: 360px) 
+@media screen and (min-width: 100px) 
 and (max-width: 601px) 
 {
 
@@ -1907,7 +1826,7 @@ and (max-width: 601px)
         margin: 5px 0 5px 20px;
     }
 
-    .image
+    .picture
     {
         width: 335px;
         height: 120px;
@@ -1916,7 +1835,7 @@ and (max-width: 601px)
         margin: 5px 5px 5px 5px; 
     }
 
-    .image img
+    .picture img
     {
         width: 100%;
         position: relative;
@@ -1935,14 +1854,12 @@ and (max-width: 601px)
         flex-wrap: wrap;
     }
 
-    .container3 .card
-    {
+    .container3 .card {
         width: 345px;
         height: 200px;
     }
 
-    .imghight
-    {
+    .imghight {
         width: 345px;
         height: 140px;
         overflow: hidden; 
@@ -1989,7 +1906,7 @@ and (max-width: 601px)
         transform: translateY(-50%);
     }
 
-    .imgdamegarde
+    .imgladywatch
     {
         width: 345px;
         height: 140px;
@@ -1997,7 +1914,7 @@ and (max-width: 601px)
         border-radius: 19px 19px 0 0
     }
 
-    .imgdamegarde img
+    .imgladywatch img
     {
         width: 100%;
         position: relative;
@@ -2043,13 +1960,4 @@ and (max-width: 601px)
     {
         height: 500px;    
     }
-
-
 }
-
-    
-
-
-
-
-
