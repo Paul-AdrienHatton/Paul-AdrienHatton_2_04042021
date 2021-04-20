@@ -728,7 +728,7 @@ a
     border-radius: 19px 19px 0 0;
 }
 
-.imgpomegues
+.imgcastle
 {
     width: 302px;
     height: 181px;
@@ -908,6 +908,11 @@ footer
 and (max-width: 3000px) 
 
 {
+    .main 
+    {
+        align-content: center;
+    }
+
     .container1 .card
     {
         width: 300px;
@@ -1472,7 +1477,7 @@ and (max-width: 768px)
         transform: translateY(-40%);
     }
 
-    .imgpomegues
+    .imgcastle
     {
         width: 400px;
         height: 200px;
@@ -1480,7 +1485,7 @@ and (max-width: 768px)
         border-radius: 19px 19px 0 0
     }
 
-    .imgpomegues img
+    .imgcastle img
     {
         width: 100%;
         position: relative;
@@ -1568,7 +1573,7 @@ and (max-width: 768px)
     }
 }
 
-@media screen and (min-width: 100px) 
+@media screen and (min-width: 375px) 
 and (max-width: 601px) 
 {
 
@@ -1874,7 +1879,7 @@ and (max-width: 601px)
         transform: translateY(-40%);
     }
 
-    .imgpomegues
+    .imgcastle
     {
         width: 345px;
         height: 140px;
@@ -1882,7 +1887,405 @@ and (max-width: 601px)
         border-radius: 19px 19px 0 0
     }
 
-    .imgpomegues img
+    .imgcastle img
+    {
+        width: 100%;
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .imgfrioul
+    {
+        width: 345px;
+        height: 140px;
+        overflow: hidden; 
+        border-radius: 19px 19px 0 0
+    }
+
+    .imgfrioul img
+    {
+        width: 100%;
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .imgladywatch
+    {
+        width: 345px;
+        height: 140px;
+        overflow: hidden; 
+        border-radius: 19px 19px 0 0
+    }
+
+    .imgladywatch img
+    {
+        width: 100%;
+        position: relative;
+    }
+
+    .imglongchamp
+    {
+        width: 345px;
+        height: 140px;
+        overflow: hidden; 
+        border-radius: 19px 19px 0 0
+    }
+
+    .imglongchamp img
+    {
+        width: 100%;
+        position: relative;
+    }
+
+    .activities h2 
+    {
+        margin: 0;
+        padding: 32px 0 20px 20px;
+    }
+
+    .activities h3
+    {
+        margin-top: 20px;
+    }
+
+    .about 
+    {
+        padding-top: 50px;
+    }
+    
+    .footer
+    {
+        display: block;
+        margin: 50px 0 0 30px;
+    }
+
+    footer
+    {
+        height: 500px;    
+    }
+}
+
+@media screen and (min-width: 50px) 
+and (max-width: 375px) 
+{
+    .body
+    {
+        overflow: scroll;
+    }
+
+    header
+    {
+        margin-right: 50px;
+    }
+
+    .logo 
+    {
+        height: 50px;
+        margin: 30px 30px;
+    }
+
+    nav
+    {
+        flex-direction: row-reverse;
+        flex-wrap: wrap-reverse;
+    }
+    
+    nav
+    {
+        width: 60%;
+        margin-right: 42px;
+    }
+    
+    .nav1
+    {
+        justify-content: space-between;
+        margin:0;
+        border-top: none;
+    }
+    
+    nav .slidetop1 a
+    {
+        padding: 0 50px 10px 60px;
+        margin-left: 0;
+        border-bottom: solid 2px #f2f2f2;
+    }
+    
+    nav .slidetop1 a:hover
+    {
+        border-bottom: solid 2px #0065FC;
+    }
+    
+    nav .slidetop1:hover
+    {
+        border-top: none;
+    }
+    
+    nav .slidetop2 a
+    {
+        padding: 0 40px 10px 40px;
+        margin-left: 0%;
+        border-bottom: solid 2px #f2f2f2;
+    }
+    
+    nav .slidetop2 a:hover
+    {
+        border-bottom: solid 2px #0065FC;
+    }
+    
+    nav .slidetop2:hover
+    {
+        border-top: none;
+    }
+    
+    nav .inscription a
+    {
+        margin-left: 14%;
+    }
+
+    nav .inscription:hover
+    {
+        border-top: none;
+    }
+   
+    .inscription
+    {
+        padding-top: 51px;
+    }
+
+    .search-section
+    {
+        padding: 20px 0 0 10px;
+    }
+
+    .search-section h1
+    {
+        font-size: 26px;
+        margin-top: 20px;
+    }
+
+    .main h2
+    {
+        font-size: 22px;
+        margin-left: 0;
+    }
+
+    .click-on
+    {
+        display: none;
+    }
+
+    .search .click-on2
+    {
+        display: inline;
+        font-family: "Raleway-Bold", sans-serif;
+        font-weight: 500;
+        border: none;
+        background: #0065FC;
+        color: #FFFFFF;
+        width: 51px;
+        height: 51px;
+        border-radius: 13px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    .filters
+    {
+        display: grid;      
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+        grid-row-gap: 12px;
+        margin-top: 15px;
+    }
+
+
+    .familial
+    {
+        grid-area: 2;
+        margin-left: -40px;
+    }
+
+    .economic
+    {
+        grid-area: 2;
+        margin: 0;
+    }
+    
+    .romantic
+    {
+        grid-area: 3;
+        margin: 0;
+    }
+
+    .animal
+    {
+        grid-area: 4;
+        margin: 0;
+    }
+
+    .informations
+    {
+        font-size: 15px;
+        margin: 20px 20px 25px 0;
+    }
+
+    .main
+    {
+        display:flex ;
+        flex-wrap: wrap;
+        order: 0;
+        height: auto;
+    }
+
+    .popular
+    {
+        order: 1;
+        height: auto;
+    }
+
+    .container1 h3
+    {
+        font-size: 18px;
+    }
+
+    .container2 h3
+    {
+        font-size: 18px;
+    }
+
+    .container3 h3
+    {
+        font-size: 18px;
+    }
+    
+    .popular
+    {
+        width: 100%;
+        margin: 0;
+        border-radius: 0;
+        height:650px;
+    }
+
+    .popular h2
+    {
+        padding: 37px 0 0 20px;
+    }
+
+    .fa-chart-line::before 
+    {
+        padding-left: 80px;
+    }
+
+    .container2
+    {
+        margin-left: 15px;
+    }
+
+    .container2 .card
+    {
+        width: 345px;
+    }
+
+    .container2 p
+    {
+        margin: 5px 0 30px 20px;
+    }
+
+    .accomodation 
+    {
+        order: 2;
+        height: auto;
+        width: auto;
+        background: none;
+        margin: 0;
+    }
+
+    .accomodation h2 
+    {
+        padding: 32px 0 0 20px;
+    }
+
+    .container1
+    {
+        margin: 0 0 0 10px;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .container1 .card
+    {
+        width: 345px;
+        height: 200px;
+    }
+
+    .container1 h3
+    {
+        margin: 5px 0px 0 20px;
+    }
+
+    .container1 p
+    {
+        margin: 5px 0 5px 20px;
+    }
+
+    .picture
+    {
+        width: 335px;
+        height: 120px;
+        overflow: hidden; 
+        border-radius: 13px 13px 0 0;
+        margin: 5px 5px 5px 5px; 
+    }
+
+    .picture img
+    {
+        width: 100%;
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .more 
+    {
+        margin: 30px 0 20px 20px;
+    }
+
+    .container3 
+    {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .container3 .card {
+        width: 345px;
+        height: 200px;
+    }
+
+    .imghight {
+        width: 345px;
+        height: 140px;
+        overflow: hidden; 
+        border-radius: 19px 19px 0 0;
+    }
+
+    .imghight img
+    {
+        width: 100%;
+        position: relative;
+        bottom: 40%;
+        transform: translateY(-40%);
+    }
+
+    .imgcastle
+    {
+        width: 345px;
+        height: 140px;
+        overflow: hidden; 
+        border-radius: 19px 19px 0 0
+    }
+
+    .imgcastle img
     {
         width: 100%;
         position: relative;
