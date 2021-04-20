@@ -904,96 +904,53 @@ footer
     margin: 0;
 }
 
-@media screen and (min-width: 1680px) 
+@media screen and (min-width: 1440px) 
+and (max-width: 1920px) 
+
+{
+    
+    .main
+    {
+       width: 1440px;
+       display: flex;
+       margin: 0 auto;
+    }
+    
+    .activities
+    {
+        width: 1440px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 1920px) 
 and (max-width: 3000px) 
-
 {
-    .main 
+    .main
     {
-        align-content: center;
+       width: 1800px;
+       display: flex;
+       margin: 0 auto;
     }
 
-    .container1 .card
+    .accomodation
     {
-        width: 300px;
+        margin: 0 auto;
     }
 
-    .container1 h3 
+    .popular
     {
-        font-size: 19px;  
+        margin: 0 auto;
+    }
+    
+    .activities
+    {
+        width: 1600px;
+        margin: 0 auto;
     }
 
-    .container2 h3 
-    {
-        font-size: 19px;  
-    }
-
-    .container2 p 
-    {
-        margin: 12px 0 29px 20px;
-    }
-
-    .picture 
-    {
-        width: 290px;
-    }
-
-    .popular 
-    {
-        width: 30%;
-        margin-right: auto;
-    }
-
-    .container2 .card
-    {
-        width: auto;
-    }
-
-    .container3
-    {
-        margin-right: 0;
-    }
-
-    .activities h3 
-    {
-        font-size: 19px;    
-    }
-
-    .apropos 
-    {
-        font-size: 20px;   
-    }
-
-    .hosting
-    {
-        font-size: 20px;   
-    }
-
-    .assistance
-    {
-        font-size: 20px;   
-    }
 }
 
-@media screen and (min-width: 1366px) 
-and (max-width: 1440px) 
-{
-    .container1 .card 
-    {
-        width: 230px;
-    }
-
-    .picture 
-    {
-        width: 220px;
-    }
-
-    .footer
-    {
-        margin-right: 0;
-        justify-content: space-around;
-    }
-}
 
 @media screen and (min-width: 1024px) 
 and (max-width: 1366px) 
