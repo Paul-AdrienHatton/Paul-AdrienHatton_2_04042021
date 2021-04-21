@@ -13,7 +13,7 @@ Technologies, logiciels et langages utilisés
 - Figma
 - Grid
 - Flexbox
-- 
+
 Éléments fournis par l'entreprise virtuelle
 
 - Les maquettes desktop et mobile sont fournies
