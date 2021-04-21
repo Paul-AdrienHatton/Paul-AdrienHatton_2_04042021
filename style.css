@@ -53,7 +53,7 @@ nav {
     margin-right: 74px;
 }
 
-.nav1 {
+.navigation {
     display: flex;
 }
 
@@ -100,18 +100,18 @@ nav a:hover {
     font-size: 17px;
 }
               /* Search Section */
-.search-section {
+.Search-Section {
     padding-left: 55px;
 }
 
-.search-section h1 {
+.Search-Section h1 {
     font-family: "Raleway-Bold", sans-serif;
     font-weight: 700;
     font-size: 22px;
     margin: 0 0 0 10px;
 }
 
-.search-section h2 {
+.Search-Section h2 {
     font-style: normal;
     font-weight: 200;
     font-size: 13px;
@@ -359,7 +359,7 @@ a {
     margin: 10px 0 25px 10px;
 }
                /*  Main/accomodation */
-.main {
+.Main {
     display: flex;
 }
 
@@ -472,7 +472,7 @@ a {
     line-height: 21px;
 }
           /* Main-Aside-Mostpopular */
-.popular {
+.Popular {
     background: #F2F2F2;
     border-radius: 19px;
     width: 420px;
@@ -504,7 +504,7 @@ a {
     margin-left: 20px;
 }
 
-.popular h2 {
+.Popular h2 {
     font-family: "Raleway-Bold", sans-serif;
     padding: 32px 0 0 37px;
     font-weight: bold;
@@ -520,7 +520,7 @@ a {
     padding-left: 116px;
 }
 
-.popular a {
+.Popular a {
     text-decoration: none;
     color: black;
 }
@@ -581,7 +581,7 @@ a {
     border-radius: 20px;
 }
                 /* Section activities */    
-.activities h2 {
+.Activities h2 {
     font-family: "Raleway-Bold", sans-serif;
     font-weight: bold;
     font-size: 22px;
@@ -590,7 +590,7 @@ a {
     margin-top: 68px;
 }
 
-.activities h3 {
+.Activities h3 {
     font-family: "Raleway-Bold", sans-serif;
     font-style: normal;
     font-weight: 600;
@@ -724,7 +724,7 @@ footer {
     width: 100%;    
 }
 
-.footer {
+.Footer {
     display: flex;
     justify-content: space-between;
     margin-top: 50px;
@@ -745,12 +745,12 @@ footer {
     margin-top: 50px;
 }
 
-.footer a {
+.Footer a {
     text-decoration: none;
     color: black;
 }
 
-.footer a:hover {
+.Footer a:hover {
     color: #c0c0c0;
 }
             
@@ -780,20 +780,20 @@ footer {
 
 @media screen and (min-width: 1440px) 
 and (max-width: 1920px)
-{   .main {
+{   .Main {
        width: 1440px;
        display: flex;
        margin: 0 auto;
     }
     
-    .activities {
+    .Activities {
         width: 1440px;
         margin: 0 auto;
     }
 }
 @media screen and (min-width: 1920px) 
 and (max-width: 3000px) 
-{   .main {
+{   .Main {
        width: 1800px;
        display: flex;
        margin: 0 auto;
@@ -803,18 +803,18 @@ and (max-width: 3000px)
         margin: 0 auto;
     }
 
-    .popular{
+    .Popular{
         margin: 0 auto;
     }
     
-    .activities{
+    .Activities{
         width: 1600px;
         margin: 0 auto;
     }
 }
 @media screen and (min-width: 1024px) 
 and (max-width: 1366px) 
-{   .main{
+{   .Main{
          display:flex ;
          flex-wrap: wrap;
          height: auto;
@@ -841,7 +841,7 @@ and (max-width: 1366px)
         height: 150px;
     }
 
-    .popular {
+    .Popular {
         width: 100%;
         height: 500px;
         margin: 50px;
@@ -871,7 +871,7 @@ and (max-width: 1366px)
         padding-left: 800px;
     }
 
-    .activities h2{
+    .Activities h2{
         margin-top: 0;
     }
 
@@ -896,14 +896,14 @@ and (max-width: 1366px)
         margin: auto;
     }
 
-    .footer{
+    .Footer{
         margin-right: 0;
         justify-content: space-around;
     }
 }
 @media screen and (min-width: 768px) 
 and (max-width: 1024px) 
-{   .header{
+{   .Header{
         margin-right: 0;
     }
 
@@ -933,7 +933,7 @@ and (max-width: 1024px)
         margin-top: 20px;
     }
 
-    .main{
+    .Main{
         display:flex ;
         flex-wrap: wrap;
         order: 0;
@@ -948,7 +948,7 @@ and (max-width: 1024px)
         background: none;
     }
  
-    .popular{
+    .Popular{
         order: 1;
         height: auto;
         width: 100%;
@@ -977,7 +977,7 @@ and (max-width: 1024px)
         grid-column-gap: 20px;
     }
 
-    .activities h2 {
+    .Activities h2 {
         font-family: "Raleway-Bold", sans-serif;
         font-weight: bold;
         font-size: 22px;
@@ -997,7 +997,7 @@ and (max-width: 1024px)
         height: 500px;
     }
 
-    .footer{
+    .Footer{
        display: block;
     }
 
@@ -1014,7 +1014,7 @@ and (max-width: 768px)
         margin-right: 42px;
     }
 
-    .nav1 {
+    .navigation {
         justify-content: space-between;
         margin: 0 100px 0 62px;
         border-top: none;
@@ -1058,12 +1058,12 @@ and (max-width: 768px)
         padding-top: 71px;
     }
 
-    .search-section h1 {
+    .Search-Section h1 {
         font-size: 26px;
         margin-top: 20px;
     }
 
-    .main h2 { 
+    .Main h2 { 
         font-size: 24px;
         margin-left: 60px;
     }
@@ -1110,14 +1110,14 @@ and (max-width: 768px)
         grid-area: 3;
     }
 
-    .main {
+    .Main {
         display:flex ;
         flex-wrap: wrap;
         order: 0;
         height: auto;
     }
 
-    .popular {
+    .Popular {
         order: 1;
         height: auto;
     }
@@ -1134,7 +1134,7 @@ and (max-width: 768px)
         font-size: 22px;
     }
     
-    .popular {
+    .Popular {
         width: 100%;
         margin: 0;
         border-radius: 0;
@@ -1265,13 +1265,13 @@ and (max-width: 768px)
         position: relative;
     }
 
-    .activities h2 {
+    .Activities h2 {
         margin-left: 100px;
         margin-top: 10px;
         font-size: 24px;
     }
 
-    .activities h3 {
+    .Activities h3 {
         margin-top: 40px;
     }
 
@@ -1285,7 +1285,7 @@ and (max-width: 768px)
         padding-top: 50px;
     }
     
-    .footer {
+    .Footer {
         display: block;
         margin-right: 0;
     }
@@ -1315,7 +1315,7 @@ and (max-width: 601px)
         margin-right: 42px;
     }
     
-    .nav1 {
+    .navigation {
         justify-content: space-between;
         margin:0;
         border-top: none;
@@ -1361,16 +1361,16 @@ and (max-width: 601px)
         padding-top: 51px;
     }
 
-    .search-section {
+    .Search-Section {
         padding: 20px 0 0 10px;
     }
 
-    .search-section h1 {
+    .Search-Section h1 {
         font-size: 26px;
         margin-top: 20px;
     }
 
-    .main h2 {
+    .Main h2 {
         font-size: 22px;
         margin-left: 0;
     }
@@ -1425,14 +1425,14 @@ and (max-width: 601px)
         margin: 20px 20px 25px 0;
     }
 
-    .main {
+    .Main {
         display:flex ;
         flex-wrap: wrap;
         order: 0;
         height: auto;
     }
 
-    .popular {
+    .Popular {
         order: 1;
         height: auto;
     }
@@ -1449,14 +1449,14 @@ and (max-width: 601px)
         font-size: 18px;
     }
     
-    .popular {
+    .Popular {
         width: 100%;
         margin: 0;
         border-radius: 0;
         height:650px;
     }
 
-    .popular h2{
+    .Popular h2{
         padding: 37px 0 0 20px;
     }
 
@@ -1602,12 +1602,12 @@ and (max-width: 601px)
         position: relative;
     }
 
-    .activities h2 {
+    .Activities h2 {
         margin: 0;
         padding: 32px 0 20px 20px;
     }
 
-    .activities h3 {
+    .Activities h3 {
         margin-top: 20px;
     }
 
@@ -1615,7 +1615,7 @@ and (max-width: 601px)
         padding-top: 50px;
     }
     
-    .footer {
+    .Footer {
         display: block;
         margin: 50px 0 0 30px;
     }
@@ -1649,7 +1649,7 @@ and (max-width: 375px)
         margin-right: 42px;
     }
     
-    .nav1 {
+    .navigation {
         justify-content: space-between;
         margin:0;
         border-top: none;
@@ -1695,16 +1695,16 @@ and (max-width: 375px)
         padding-top: 51px;
     }
 
-    .search-section {
+    .Search-Section {
         padding: 20px 0 0 10px;
     }
 
-    .search-section h1 {
+    .Search-Section h1 {
         font-size: 26px;
         margin-top: 20px;
     }
 
-    .main h2 {
+    .Main h2 {
         font-size: 22px;
         margin-left: 0;
     }
@@ -1759,14 +1759,14 @@ and (max-width: 375px)
         margin: 20px 20px 25px 0;
     }
 
-    .main {
+    .Main {
         display:flex ;
         flex-wrap: wrap;
         order: 0;
         height: auto;
     }
 
-    .popular {
+    .Popular {
         order: 1;
         height: auto;
     }
@@ -1783,14 +1783,14 @@ and (max-width: 375px)
         font-size: 18px;
     }
     
-    .popular {
+    .Popular {
         width: 100%;
         margin: 0;
         border-radius: 0;
         height:650px;
     }
 
-    .popular h2 {
+    .Popular h2 {
         padding: 37px 0 0 20px;
     }
 
@@ -1936,12 +1936,12 @@ and (max-width: 375px)
         position: relative;
     }
 
-    .activities h2 {
+    .Activities h2 {
         margin: 0;
         padding: 32px 0 20px 20px;
     }
 
-    .activities h3 {
+    .Activities h3 {
         margin-top: 20px;
     }
 
@@ -1949,7 +1949,7 @@ and (max-width: 375px)
         padding-top: 50px;
     }
     
-    .footer {
+    .Footer {
         display: block;
         margin: 50px 0 0 30px;
     }
