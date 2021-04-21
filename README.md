@@ -35,3 +35,9 @@ Cahier des charges
 - Le HTML et le CSS doivent être séparés et le dossier doit être organisé
 - Le code doit être versionné avec git et doit avoir un repo distant sur Github ou Gitlab
 - Le site doit être responsive
+
+
+Convention de nommage 
+
+- Les "class" des balises sémantiques commencent par une majuscule
+- Les "class" du code HTML sont rédigées en anglais uniquement
