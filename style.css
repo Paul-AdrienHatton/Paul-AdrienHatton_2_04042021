@@ -1,83 +1,63 @@
-@font-face
-{
+@font-face {
     font-family: "Raleway";
     src: url("./fonts/Raleway-Bold.ttf") format("truetype");
-    src: url("./fonts/Raleway-Regular.ttf") format("truetype");
-}
+    src: url("./fonts/Raleway-Regular.ttf") format("truetype");}
 
-@font-face
-{
+@font-face {
     font-family: "Raleway Thin";
     src: url("./fonts/Raleway-VariableFont_wght.ttf") format("truetype");
-    src: url("./fonts/Raleway-VariableFont_wght.ttf") format("truetype");    
-}
+    src: url("./fonts/Raleway-VariableFont_wght.ttf") format("truetype");}
 
-@font-face
-{
+@font-face {
     font-family: "Raleway Black";
-    src: url("./fonts/Raleway-Black.ttf") format("truetype");
-}
+    src: url("./fonts/Raleway-Black.ttf") format("truetype");}
 
-@font-face
-{
+@font-face {
     font-family: "Raleway SemiBold";
-    src: url("./fonts/Raleway-SemiBold.ttf") format("truetype");
-}
+    src: url("./fonts/Raleway-SemiBold.ttf") format("truetype");}
 
-@font-face
-{
+@font-face {
     font-family: "Raleway Medium";
-    src: url("./fonts/Raleway-Medium.ttf") format("truetype");
-}
+    src: url("./fonts/Raleway-Medium.ttf") format("truetype");}
 
-@font-face
-{
+@font-face {
     font-family: "Raleway Light";
-    src: url("./fonts/Raleway-Light.ttf") format("truetype");
-}
+    src: url("./fonts/Raleway-Light.ttf") format("truetype");}
 
-* 
-{
+* {
     box-sizing: border-box;
 }
 
-body
-{
+body {
     font-family: "Raleway", sans-serif;
     width: 100%;
     margin: 0;
     padding: 0;
 }
-
                  /* Header */
-header
-{
-    display: flex;
+header 
+   { display: flex;
     justify-content: space-between;
-    margin-right: 74px;
-}
+    margin-right: 74px;}
 
-.logo
-{
+
+.logo { 
     height: 40px;
     margin: 52px 54px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
-nav
-{
+nav {
     display: flex;
     flex-wrap: wrap;
     margin-right: 74px;
 }
 
-.nav1
-{
+.nav1 {
     display: flex;
 }
 
-nav a
-{
+nav a {
 font-style: normal;
 font-size: 16px;
 line-height: 19px;
@@ -87,82 +67,68 @@ color: #0065FC;
 text-decoration: none;
 }
 
-.slidetop1 
-{
+.slidetop1 {
     padding-top:52px;
     font-weight:500;
     font-style: normal;
     font-size: 16px;
 }
 
-nav .slidetop1:hover
-{
+nav .slidetop1:hover {
     border-top: solid 2px #0065FC;
 }
 
-nav .slidetop2:hover
-{
+nav .slidetop2:hover {
     border-top: solid 2px #0065FC;
 }
 
-nav .inscription:hover
-{
+nav .inscription:hover {
     border-top: solid 2px #0065FC;
 }
 
-nav a:hover
-{
+nav a:hover {
     color: #deebff;
 }
 
-.slidetop2
-{
+.slidetop2 {
     padding-top: 52px;
 }
 
-.inscription
-{
+.inscription {
     padding-top: 51px;
     font-weight: 600;
     font-size: 17px;
 }
-
               /* Search Section */
-.search-section
-{
+.search-section {
     padding-left: 55px;
 }
 
-.search-section h1
-{
+.search-section h1 {
     font-family: "Raleway-Bold", sans-serif;
     font-weight: 700;
     font-size: 22px;
     margin: 0 0 0 10px;
 }
 
-.search-section h2
-{
+.search-section h2 {
     font-style: normal;
     font-weight: 200;
     font-size: 13px;
     margin: 10px 0 30px 10px;
 }
 
-.search
-{
+.search {
     display: flex;
     margin-left: 10px;
 }
 
-a
-{
+a {
     text-decoration: none;
     color: black;
 }
 
-.search .fa-map-marker-alt
-{
+.search .fa-map-marker-alt {
     background-color: #F2F2F2;
     width: 52px;
     height: 51px;
@@ -170,8 +136,7 @@ a
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.search .fa-map-marker-alt::before
-{
+.search .fa-map-marker-alt::before {
     position: absolute;
     padding: 17px 19px 20px 20px;
     width: 13px;
@@ -179,8 +144,7 @@ a
     font-size: 20px;
  }
 
-.search input
-{
+.search input {
     width: 234px;
     height: 51px;
     border: solid 2px #F2F2F2;
@@ -189,8 +153,7 @@ a
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-::placeholder
-{
+::placeholder {
     font-family: "Raleway-Bold", sans-serif;
     font-size: 18px;
     color: black;
@@ -198,8 +161,7 @@ a
     padding-left: 13px;
 }
 
-.search .click-on
-{
+.search .click-on {
     font-family: "Raleway-Bold", sans-serif;
     font-weight: 500;
     border: none;
@@ -212,33 +174,28 @@ a
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.search .click-on:hover
-{
+.search .click-on:hover {
     opacity: 40%;
     cursor: pointer;
 }
 
-.search .click-on2:hover
-{
+.search .click-on2:hover {
     opacity: 10%;
     cursor: pointer;
 }
 
-.search .click-on2
-{
+.search .click-on2 {
     display: none;
 }
 
-.filters
-{
+.filters {
     position: relative;
     display: flex;
     flex-wrap: wrap;
     margin-top: 49px;
 }
 
-.filters1
-{
+.filters1 {
     position: relative;
     font-family: "Raleway-Bold", sans-serif;
     font-weight: 700;
@@ -248,8 +205,7 @@ a
     margin-left: 12px;
 }
 
-.economic
-{
+.economic {
     display: flex;
     align-items: center;
     border: solid 3px #f2f2f2;
@@ -261,12 +217,11 @@ a
     box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
 }
 
-.economic p:hover
-{
+.economic p:hover {
     color: #0065FC;
 }
 
-.bubble1{
+.bubble1 {
     color: #0065FC;
     background: #deebff;
     border-radius: 50%;
@@ -276,17 +231,15 @@ a
     font-size: 20px;
 }
 
-.eco
-{
+.eco {
     padding-left: 12px;
     margin: 0;
     font-family: "Raleway-Bold", sans-serif;
     font-weight: 700;
     font-size: 18px;
- }
+}
 
- .familial
- {
+.familial {
     display: flex;
     align-items: center;
     border: solid 3px #F2F2F2;
@@ -298,13 +251,11 @@ a
     box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
 }
 
-.familial p:hover
-{
+.familial p:hover {
     color: #0065FC;
 }
 
-.bubble2
-{
+.bubble2 {
     color: #0065FC;
     background: #deebff;
     border-radius: 50%;
@@ -314,8 +265,7 @@ a
     font-size: 20px;
 }
 
-.fam
-{
+.fam {
     padding-left: 12px;
     margin: 0;
     font-family: "Raleway-Bold", sans-serif;
@@ -323,8 +273,7 @@ a
     font-size: 18px;
  }
 
- .romantic
- {
+ .romantic {
     display: flex;
     align-items: center;
     border: solid 3px #f2f2f2;
@@ -336,13 +285,11 @@ a
     box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
 }
 
-.romantic p:hover
-{
+.romantic p:hover {
     color: #0065FC;
 }
 
-.bubble3
-{
+.bubble3 {
     color: #0065FC;
     background: #d3e5fd;
     border-radius: 50%;
@@ -352,8 +299,7 @@ a
     font-size: 20px;
 }
 
-.rom
-{
+.rom {
     padding-left: 12px;
     margin: 0;
     font-family: "Raleway-Bold", sans-serif;
@@ -361,8 +307,7 @@ a
     font-size: 18px;
  }
 
- .animal
- {
+.animal {
     display: flex;
     align-items: center;
     border: solid 3px #F2F2F2;
@@ -374,13 +319,11 @@ a
     box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
 }
 
-.animal p:hover
-{
+.animal p:hover {
     color: #0065FC;
 }
 
-.bubble4
-{
+.bubble4 {
     color: #0065FC;
     background: #deebff;
     border-radius: 50%;
@@ -390,17 +333,15 @@ a
     font-size: 20px;
 }
 
-.ani
-{
+.ani {
     padding-left: 12px;
     margin: 0;
     font-family: "Raleway-Bold", sans-serif;
     font-weight: 700;
     font-size: 18px;
- }
+}
 
- .fa-info
- {
+.fa-info {
     color: #0065FC;
     border: 1.5px solid #F2F2F2;
     border-radius: 50%;
@@ -410,23 +351,19 @@ a
     margin-right: 12px;
 }
 
-.informations
-{
+.informations {
     display: flex;
     align-items: baseline;
     font-size: 14px;
     font-weight: 300;
     margin: 10px 0 25px 10px;
 }
-
                /*  Main/accomodation */
-.main 
-{
+.main {
     display: flex;
 }
 
-.accomodation h2
-{
+.accomodation h2 {
     font-family: "Raleway-Bold", sans-serif;
     padding: 32px 0 0 40px;
     font-weight: bold;
@@ -434,8 +371,7 @@ a
     line-height: 26px;
 }
 
-.container1 h3
-{
+.container1 h3 {
     display: flex;
     font-family: "Raleway-Bold", sans-serif;
     font-weight: bold;
@@ -443,8 +379,7 @@ a
     margin: 10px 0px 0 20px;
 }
 
-.container1 p
-{
+.container1 p {
     display: flex;
     font-weight: 300;
     font-size: 14px;
@@ -453,18 +388,15 @@ a
     margin: 10px 0 5px 20px;
 }
 
-.blue 
-{
+.blue {
     color: #0065FC;
 }
 
-.grey
-{
+.grey {
     color: #f2f2f2;
 }
 
-.fa-star  
-{
+.fa-star {
     width: 12px;
     height: 12px;
     margin:0;
@@ -472,18 +404,15 @@ a
     margin-bottom: 11px;
 }
 
-.first
-{
+.first {
     margin-left: 16px;
 }
 
-.fa-star:before 
-{
+.fa-star:before {
     font-size: 12px;
 }
 
-.accomodation
-{
+.accomodation {
     background: #F2F2F2;
     border-radius: 19px;
     width: 60%;
@@ -491,8 +420,7 @@ a
     margin: 0px auto 0px 50px;
 }
 
-.container1
-{
+.container1 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-column-gap: 20px;
@@ -501,20 +429,17 @@ a
     margin-right: 36px;
 }
 
-.card:hover
-{
+.card:hover {
      animation-duration: 0.25s;
      box-shadow: 0 20px 30px rgba(0,0,0,0.25), 0 15px 15px rgba(0,0,0,0.22);
 }
 
-.accomodation a
-{
+.accomodation a {
     text-decoration: none;
     color: black;
 }
 
-.picture
-{
+.picture {
     width: 235px;
     height: 105px;
     overflow: hidden; 
@@ -522,16 +447,14 @@ a
     margin: 5px 5px 5px 5px; 
 }
 
-.picture img
-{
+.picture img {
     width: 100%;
     position: relative;
     top: 50%;
     transform: translateY(-50%);
 }
 
-.container1 .card
-{
+.container1 .card {
     width: 246px;
     height: 199px;
     display: flex;
@@ -540,8 +463,7 @@ a
     border-radius: 20px;
 }
 
-.more 
-{
+.more {
     margin: 41px 0 43px 45px;
     font-family: Raleway;
     font-style: normal;
@@ -549,10 +471,8 @@ a
     font-size: 18px;
     line-height: 21px;
 }
-
           /* Main-Aside-Mostpopular */
-.popular
-{
+.popular {
     background: #F2F2F2;
     border-radius: 19px;
     width: 420px;
@@ -561,8 +481,7 @@ a
     margin-right: 50px;
 }
 
-.container2
-{
+.container2 {
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
     grid-row-gap: 33px;
@@ -570,8 +489,7 @@ a
     margin-right: 40px;
 }
 
-.container2 h3
-{
+.container2 h3 {
     display: flex;
     font-family: "Raleway-Bold", sans-serif;
     font-weight: bold;
@@ -581,14 +499,12 @@ a
     margin-bottom: 0;
 }
 
-.container2 p
-{
+.container2 p {
     margin: 12px 0 29px 0;
     margin-left: 20px;
 }
 
-.popular h2
-{
+.popular h2 {
     font-family: "Raleway-Bold", sans-serif;
     padding: 32px 0 0 37px;
     font-weight: bold;
@@ -596,25 +512,20 @@ a
     line-height: 26px;
 }
 
-.mostpopular
-{
+.mostpopular {
     display: flex;   
 }
 
-.fa-chart-line::before
-{ 
+.fa-chart-line::before { 
     padding-left: 116px;
 }
 
-
-.popular a
-{
+.popular a {
     text-decoration: none;
     color: black;
 }
 
-.first
-{
+.first {
     margin-left: 20px;
 }
 
@@ -627,27 +538,23 @@ a
     margin: 5px 5px 5px 5px; 
 }
 
-.heartwater .picture2 img
-{
+.heartwater .picture2 img {
     width: 100%;
 }
 
-.morningsun .picture2 img
-{
+.morningsun .picture2 img {
     width: 100%;
     
 }
 
-.bluewhite .picture2 img
-{
+.bluewhite .picture2 img {
     width: 100%;
     position: relative;
     top: 50%;
     transform: translateY(-50%);
 }
 
-.morningsun
-{
+.morningsun {
     display: flex;
     width: 343px;
     height: 144px;
@@ -656,8 +563,7 @@ a
     border-radius: 20px;
 }
 
-.heartwater
-{
+.heartwater {
     display: flex;
     width: 343px;
     height: 144px;
@@ -666,8 +572,7 @@ a
     border-radius: 20px;
 }
 
-.bluewhite
-{
+.bluewhite {
     display: flex;
     width: 343px;
     height: 144px;
@@ -675,11 +580,8 @@ a
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 20px;
 }
-
-
                 /* Section activities */    
-.activities h2
-{
+.activities h2 {
     font-family: "Raleway-Bold", sans-serif;
     font-weight: bold;
     font-size: 22px;
@@ -688,8 +590,7 @@ a
     margin-top: 68px;
 }
 
-.activities h3
-{
+.activities h3 {
     font-family: "Raleway-Bold", sans-serif;
     font-style: normal;
     font-weight: 600;
@@ -698,8 +599,7 @@ a
     margin-bottom: 19px;
 }
 
-.container3
-{
+.container3 {
     display: grid;
     justify-content: center;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -710,8 +610,7 @@ a
     margin-right: 53px;
 }
 
-.column1
-{
+.column1 {
     display: flex;
     width: 302px;
     height: 445px;
@@ -720,69 +619,59 @@ a
     border-radius: 20px;
 }
 
-.imghight
-{
+.imghight {
     width: 302px;
     height: 390px;
     overflow: hidden; 
     border-radius: 19px 19px 0 0;
 }
 
-.imgcastle
-{
+.imgcastle {
     width: 302px;
     height: 181px;
     overflow: hidden; 
     border-radius: 19px 19px 0 0
 }
 
-
-.imgfrioul
-{
+.imgfrioul {
     width: 302px;
     height: 109px;
     overflow: hidden; 
     border-radius: 19px 19px 0 0;
 }
 
-.imgfrioul img
-{
+.imgfrioul img {
     width: 100%;
     position: relative;
     top: 50%;
     transform: translateY(-50%);
 }
 
-.imgladywatch
-{
+.imgladywatch {
     width: 302px;
     height: 141px;
     overflow: hidden; 
     border-radius: 19px 19px 0 0
 }
 
-.imgladywatch img
-{
+.imgladywatch img {
     width: 100%;
     position: relative;
 }
 
-.imglongchamp
-{
+.imglongchamp {
     width: 302px;
     height: 153px;
     overflow: hidden; 
     border-radius: 19px 19px 0 0
 }
 
-.imglongchamp img
-{
+.imglongchamp img {
     width: 100%;
     position: relative;
 }
 
-.castle
-{
+.castle {
     display: block;
     width: 302px;
     height: 237px;
@@ -791,8 +680,7 @@ a
     border-radius: 20px;
 }
 
-.frioul
-{
+.frioul {
     display: block;
     width: 302px;
     height: 165px;
@@ -802,8 +690,7 @@ a
     border-radius: 20px;
 }
 
-.column3
-{
+.column3 {
     display: flex;
     width: 302px;
     height: 445px;
@@ -812,8 +699,7 @@ a
     border-radius: 20px;
 }
 
-.ladywatch
-{
+.ladywatch {
     display: block;
     width: 302px;
     height: 197px;
@@ -822,8 +708,7 @@ a
     border-radius: 20px;
 }
 
-.longchamp
-{
+.longchamp {
     display: block;
     width: 302px;
     height: 209px;
@@ -832,17 +717,14 @@ a
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 20px;
 }
-
                /*  Footer */
-footer
-{
+footer {
     background: #F2F2F2;
     height: 218px;
     width: 100%;    
 }
 
-.footer
-{
+.footer {
     display: flex;
     justify-content: space-between;
     margin-top: 50px;
@@ -851,34 +733,28 @@ footer
     flex-wrap: wrap;
 }
 
-.about
-{
+.about {
     margin-top: 50px;
 }
 
-.hosting
-{
+.hosting {
     margin-top: 50px;
 }
 
-.assistance
-{
+.assistance {
     margin-top: 50px;
 }
 
-.footer a
-{
+.footer a {
     text-decoration: none;
     color: black;
 }
 
-.footer a:hover
-{
+.footer a:hover {
     color: #c0c0c0;
 }
             
-.apropos
-{   
+.apropos {   
     font-family: "Raleway", sans-serif;
     font-weight: 600;
     font-size: 18px;
@@ -886,8 +762,7 @@ footer
     margin: 0;
 }
             
-.hosting2
-{
+.hosting2 {
     font-family: "Raleway", sans-serif;
     font-weight: 600;
     font-size: 18px;
@@ -895,8 +770,7 @@ footer
     margin: 0;
 }
             
-.assistance2
-{
+.assistance2 {
     font-family: "Raleway", sans-serif;
     font-weight: 600;
     font-size: 18px;
@@ -905,97 +779,75 @@ footer
 }
 
 @media screen and (min-width: 1440px) 
-and (max-width: 1920px) 
-
-{
-    
-    .main
-    {
+and (max-width: 1920px)
+{   .main {
        width: 1440px;
        display: flex;
        margin: 0 auto;
     }
     
-    .activities
-    {
+    .activities {
         width: 1440px;
         margin: 0 auto;
     }
 }
-
 @media screen and (min-width: 1920px) 
 and (max-width: 3000px) 
-{
-    .main
-    {
+{   .main {
        width: 1800px;
        display: flex;
        margin: 0 auto;
     }
 
-    .accomodation
-    {
+    .accomodation{
         margin: 0 auto;
     }
 
-    .popular
-    {
+    .popular{
         margin: 0 auto;
     }
     
-    .activities
-    {
+    .activities{
         width: 1600px;
         margin: 0 auto;
     }
-
 }
-
-
 @media screen and (min-width: 1024px) 
 and (max-width: 1366px) 
-{
-    .main
-     {
+{   .main{
          display:flex ;
          flex-wrap: wrap;
          height: auto;
-     }
+    }
  
-     .accomodation
-    {
+    .accomodation{
         width: 100%;
         height: auto;
         margin: 0px 50px 0px 50px;
     }
 
-    .container1
-    {
+    .container1{
         display: flex;
         flex-wrap: wrap;
     }
 
-    .container1 .card
-    {
+    .container1 .card{
         width: 350px;
         height: 250px;
     }
 
-    .container1 .picture
-    {
+    .container1 .picture{
         width: 340px;
         height: 150px;
     }
 
-    .popular 
-    {
+    .popular {
         width: 100%;
         height: 500px;
         margin: 50px;
     }
 
-    .container2 
-    {
+    .container2 {
         grid-template-columns: 1FR 1FR;
         grid-template-rows: 1FR 1FR;
         grid-row-gap: 50px;
@@ -1003,79 +855,63 @@ and (max-width: 1366px)
         justify-content: center;
     }
 
-    .morningsun
-    {
+    .morningsun{
         width: 80%;
     }
 
-    .heartwater
-    {
+    .heartwater{
         width: 80%;
     }
 
-    .bluewhite
-    {
+    .bluewhite{
         width: 80%;
     }
 
-    .fa-chart-line::before
-    {
+    .fa-chart-line::before{
         padding-left: 800px;
     }
 
-    .activities h2
-    {
+    .activities h2{
         margin-top: 0;
     }
 
-    .container3 
-    {
+    .container3 {
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr;    
     }
 
-    .column1
-    {
+    .column1{
         margin: auto;
     }
 
-    .column2
-    {
+    .column2{
         margin: auto;
     }
 
-    .column3
-    {
+    .column3 {
         margin: auto;
     }
 
-    .column4
-    {
+    .column4{
         margin: auto;
     }
 
-    .footer
-    {
+    .footer{
         margin-right: 0;
         justify-content: space-around;
     }
 }
-
 @media screen and (min-width: 768px) 
 and (max-width: 1024px) 
-{
-    .header
-    {
+{   .header{
         margin-right: 0;
     }
 
-    .click-on
-    {
+    .click-on{
         display: none;
     }
 
-    .search .click-on2
-    {
+    .search .click-on2{
         display: inline;
         font-family: "Raleway-Bold", sans-serif;
         font-weight: 500;
@@ -1088,27 +924,23 @@ and (max-width: 1024px)
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     }
 
-    .filters
-    {
+    .filters{
         display: flex;
         flex-wrap: wrap;
     }
 
-    .animal 
-    {
+    .animal {
         margin-top: 20px;
     }
 
-    .main
-     {
+    .main{
         display:flex ;
         flex-wrap: wrap;
         order: 0;
         height: auto;
      }
  
-    .accomodation
-    {
+    .accomodation{
         order: 2;
         height: auto;
         width: 100%;
@@ -1116,8 +948,7 @@ and (max-width: 1024px)
         background: none;
     }
  
-    .popular
-    {
+    .popular{
         order: 1;
         height: auto;
         width: 100%;
@@ -1125,13 +956,11 @@ and (max-width: 1024px)
         border-radius: 0%;
     }
 
-    .fa-chart-line::before 
-    {
+    .fa-chart-line::before {
         padding-left: 500px;
     }
 
-    .container1 
-    {
+    .container1 {
         display: flex;
         grid-column-gap: 100px;
         grid-row-gap: 30px;
@@ -1139,8 +968,7 @@ and (max-width: 1024px)
         flex-wrap: wrap;
     }
 
-    .container2 
-    {
+    .container2 {
         display: flex;
         grid-template-rows: 1fr 1fr 1fr;
         grid-row-gap: 30px;
@@ -1149,8 +977,7 @@ and (max-width: 1024px)
         grid-column-gap: 20px;
     }
 
-    .activities h2 
-    {
+    .activities h2 {
         font-family: "Raleway-Bold", sans-serif;
         font-weight: bold;
         font-size: 22px;
@@ -1159,118 +986,93 @@ and (max-width: 1024px)
         margin-top: 0;
     }
 
-    .container3 
-    {
+    .container3 {
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
         grid-column-gap: 50px;
     }
 
-    footer 
-    {
+    footer {
         height: 500px;
     }
 
-    .footer
-    {
+    .footer{
        display: block;
     }
 
-    .about 
-    {
+    .about {
         padding-top: 50px;
     }
 }
-
 @media screen and (min-width: 601px) 
 and (max-width: 768px) 
-{
-    nav
-    {
+{   nav {
         flex-direction: row-reverse;
         flex-wrap: wrap-reverse;
-    }
-    
-    nav
-    {
         width: 70%;
         margin-right: 42px;
     }
-    
-    .nav1
-    {
+
+    .nav1 {
         justify-content: space-between;
         margin: 0 100px 0 62px;
         border-top: none;
     }
     
-    nav .slidetop1 a
-    {
+    nav .slidetop1 a {
         padding: 0 40px 10px 40px;
         margin-left: 0;
     }
     
-    nav .slidetop1 a:hover
-    {
+    nav .slidetop1 a:hover {
         border-bottom: solid 2px #0065FC;
     }
     
-    nav .slidetop1:hover
-    {
+    nav .slidetop1:hover  {
         border-top: none;
     }
     
-    nav .slidetop2 a
-    {
+    nav .slidetop2 a {
         padding: 0 40px 10px 40px;
         margin-left: 0%;
     }
     
-    nav .slidetop2 a:hover
-    {
+    nav .slidetop2 a:hover {
         border-bottom: solid 2px #0065FC;
     }
     
-    nav .slidetop2:hover
-    {
+    nav .slidetop2:hover {
         border-top: none;
     }
     
-    nav .inscription a
-    {
+    nav .inscription a {
         margin-left: 14%;
     }
 
-    nav .inscription:hover
-    {
+    nav .inscription:hover {
         border-top: none;
     }
    
-    .inscription
-    {
+    .inscription {
         padding-top: 71px;
     }
 
-    .search-section h1
-    {
+    .search-section h1 {
         font-size: 26px;
         margin-top: 20px;
     }
 
-    .main h2
-    {
+    .main h2 { 
         font-size: 24px;
         margin-left: 60px;
     }
 
-    .click-on
-    {
+    .click-on {
         display: none;
     }
 
-    .search .click-on2
-    {
+    .search .click-on2 {
         display: inline;
         font-family: "Raleway-Bold", sans-serif;
         font-weight: 500;
@@ -1283,8 +1085,7 @@ and (max-width: 768px)
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     }
 
-    .filters
-    {
+    .filters {
         width: 300px;
         display: grid;      
         grid-template-rows: 1fr 1fr 1fr;
@@ -1293,82 +1094,68 @@ and (max-width: 768px)
         margin-top: 15px;
     }
 
-    .familial
-    {
+    .familial {
         grid-area: 2;
     }
 
-    .economic
-    {
+    .economic {
         grid-area: 2;
     }
     
-    .romantic
-    {
+    .romantic {
         grid-area: 3;
     }
 
-    .animal
-    {
+    .animal {
         grid-area: 3;
     }
 
-    .main
-    {
+    .main {
         display:flex ;
         flex-wrap: wrap;
         order: 0;
         height: auto;
     }
 
-    .popular
-    {
+    .popular {
         order: 1;
         height: auto;
     }
 
-    .container1 h3
-    {
+    .container1 h3 {
         font-size: 22px;
     }
 
-    .container2 h3
-    {
+    .container2 h3 {
         font-size: 22px;
     }
 
-    .container3 h3
-    {
+    .container3 h3 {
         font-size: 22px;
     }
     
-    .popular
-    {
+    .popular {
         width: 100%;
         margin: 0;
         border-radius: 0;
         height:650px;
     }
 
-    .container2
-    {
+    .container2 {
         display: grid;
         grid-template-columns: 1fr;
         margin-left: 100px;
     }
 
-    .container2 .card
-    {
+    .container2 .card {
         width: 400px;
     }
 
-    .container2 p
-    {
+    .container2 p {
         margin-bottom: 10px;
     }
 
-    .accomodation 
-    {
+    .accomodation {
         order: 2;
         height: auto;
         width: auto;
@@ -1376,22 +1163,19 @@ and (max-width: 768px)
         margin: 0;
     }
 
-    .container1
-    {
+    .container1 {
         margin: 0;
         display: grid;
         grid-template-columns: 1fr;
         margin-left: 100px;
     }
 
-    .container1 .card
-    {
+    .container1 .card {
         width: 400px;
         height: 300px;
     }
 
-    .picture
-    {
+    .picture {
         width: 390px;
         height: 200px;
         overflow: hidden; 
@@ -1399,244 +1183,203 @@ and (max-width: 768px)
         margin: 5px 5px 5px 5px; 
     }
 
-    .picture img
-    {
+    .picture img {
         width: 100%;
         position: relative;
         top: 50%;
         transform: translateY(-50%);
     }
 
-    .more 
-    {
+    .more {
         margin: 41px 0 43px 100px;
     }
 
-    .container3 
-    {
+    .container3 {
         display: flex;
         flex-wrap: wrap;
     }
 
-    .imghight
-    {
+    .imghight {
         width: 400px;
         height: 200px;
         overflow: hidden; 
         border-radius: 19px 19px 0 0;
     }
 
-    .imghight img
-    {
+    .imghight img {
         width: 100%;
         position: relative;
         bottom: 40%;
         transform: translateY(-40%);
     }
 
-    .imgcastle
-    {
+    .imgcastle {
         width: 400px;
         height: 200px;
         overflow: hidden; 
         border-radius: 19px 19px 0 0
     }
 
-    .imgcastle img
-    {
+    .imgcastle img {
         width: 100%;
         position: relative;
         top: 50%;
         transform: translateY(-50%);
     }
 
-    .imgfrioul
-    {
+    .imgfrioul {
         width: 400px;
         height: 200px;
         overflow: hidden; 
         border-radius: 19px 19px 0 0
     }
 
-    .imgfrioul img
-    {
+    .imgfrioul img {
         width: 100%;
         position: relative;
         top: 50%;
         transform: translateY(-50%);
     }
 
-    .imgladywatch
-    {
+    .imgladywatch {
         width: 400px;
         height: 200px;
         overflow: hidden; 
         border-radius: 19px 19px 0 0
     }
 
-    .imgladywatch img
-    {
+    .imgladywatch img {
         width: 100%;
         position: relative;
     }
 
-    .imglongchamp
-    {
+    .imglongchamp {
         width: 400px;
         height: 200px;
         overflow: hidden; 
         border-radius: 19px 19px 0 0
     }
 
-    .imglongchamp img
-    {
+    .imglongchamp img {
         width: 100%;
         position: relative;
     }
 
-    .activities h2 
-    {
+    .activities h2 {
         margin-left: 100px;
         margin-top: 10px;
         font-size: 24px;
     }
 
-    .activities h3
-    {
+    .activities h3 {
         margin-top: 40px;
     }
 
-    .container3 .card
-    {
+    .container3 .card {
         width: 400px;
         height: 300px;
         margin-top: 30px;
     }
 
-    .about 
-    {
+    .about  {
         padding-top: 50px;
     }
     
-    .footer
-    {
+    .footer {
         display: block;
         margin-right: 0;
     }
 
-    footer
-    {
+    footer {
         height: 500px;    
     }
 }
-
 @media screen and (min-width: 375px) 
 and (max-width: 601px) 
-{
-
-    header
-    {
+{   header {
         margin-right: 50px;
     }
 
-    .logo 
-    {
+    .logo {
         height: 50px;
         margin: 30px 30px;
     }
 
-    nav
-    {
+    nav {
         flex-direction: row-reverse;
         flex-wrap: wrap-reverse;
     }
     
-    nav
-    {
+    nav {
         width: 60%;
         margin-right: 42px;
     }
     
-    .nav1
-    {
+    .nav1 {
         justify-content: space-between;
         margin:0;
         border-top: none;
     }
     
-    nav .slidetop1 a
-    {
+    nav .slidetop1 a {
         padding: 0 50px 10px 60px;
         margin-left: 0;
         border-bottom: solid 2px #f2f2f2;
     }
     
-    nav .slidetop1 a:hover
-    {
+    nav .slidetop1 a:hover {
         border-bottom: solid 2px #0065FC;
     }
     
-    nav .slidetop1:hover
-    {
+    nav .slidetop1:hover {
         border-top: none;
     }
     
-    nav .slidetop2 a
-    {
+    nav .slidetop2 a {
         padding: 0 40px 10px 40px;
         margin-left: 0%;
         border-bottom: solid 2px #f2f2f2;
     }
     
-    nav .slidetop2 a:hover
-    {
+    nav .slidetop2 a:hover {
         border-bottom: solid 2px #0065FC;
     }
     
-    nav .slidetop2:hover
-    {
+    nav .slidetop2:hover {
         border-top: none;
     }
     
-    nav .inscription a
-    {
+    nav .inscription a {
         margin-left: 14%;
     }
 
-    nav .inscription:hover
-    {
+    nav .inscription:hover {
         border-top: none;
     }
    
-    .inscription
-    {
+    .inscription {
         padding-top: 51px;
     }
 
-    .search-section
-    {
+    .search-section {
         padding: 20px 0 0 10px;
     }
 
-    .search-section h1
-    {
+    .search-section h1 {
         font-size: 26px;
         margin-top: 20px;
     }
 
-    .main h2
-    {
+    .main h2 {
         font-size: 22px;
         margin-left: 0;
     }
 
-    .click-on
-    {
+    .click-on {
         display: none;
     }
 
-    .search .click-on2
-    {
+    .search .click-on2 {
         display: inline;
         font-family: "Raleway-Bold", sans-serif;
         font-weight: 500;
@@ -1649,8 +1392,7 @@ and (max-width: 601px)
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     }
 
-    .filters
-    {
+    .filters {
         display: grid;      
         grid-template-rows: 1fr 1fr 1fr 1fr;
         grid-template-columns: 1fr 1fr;
@@ -1658,101 +1400,83 @@ and (max-width: 601px)
         margin-top: 15px;
     }
 
-
-    .familial
-    {
+    .familial {
         grid-area: 2;
         margin-left: -40px;
     }
 
-    .economic
-    {
+    .economic {
         grid-area: 2;
         margin: 0;
     }
     
-    .romantic
-    {
+    .romantic {
         grid-area: 3;
         margin: 0;
     }
 
-    .animal
-    {
+    .animal {
         grid-area: 4;
         margin: 0;
     }
 
-    .informations
-    {
+    .informations {
         font-size: 15px;
         margin: 20px 20px 25px 0;
     }
 
-    .main
-    {
+    .main {
         display:flex ;
         flex-wrap: wrap;
         order: 0;
         height: auto;
     }
 
-    .popular
-    {
+    .popular {
         order: 1;
         height: auto;
     }
 
-    .container1 h3
-    {
+    .container1 h3 {
         font-size: 18px;
     }
 
-    .container2 h3
-    {
+    .container2 h3 {
         font-size: 18px;
     }
 
-    .container3 h3
-    {
+    .container3 h3 {
         font-size: 18px;
     }
     
-    .popular
-    {
+    .popular {
         width: 100%;
         margin: 0;
         border-radius: 0;
         height:650px;
     }
 
-    .popular h2
-    {
+    .popular h2{
         padding: 37px 0 0 20px;
     }
 
-    .fa-chart-line::before 
-    {
+    .fa-chart-line::before {
         padding-left: 80px;
     }
 
-    .container2
-    {
+    .container2 {
         margin-left: 15px;
     }
 
-    .container2 .card
-    {
+    .container2 .card {
         width: 345px;
     }
 
-    .container2 p
-    {
+    .container2 p {
         margin: 5px 0 30px 20px;
     }
 
-    .accomodation 
-    {
+    .accomodation  {
         order: 2;
         height: auto;
         width: auto;
@@ -1760,36 +1484,30 @@ and (max-width: 601px)
         margin: 0;
     }
 
-    .accomodation h2 
-    {
+    .accomodation h2 {
         padding: 32px 0 0 20px;
     }
 
-    .container1
-    {
+    .container1 {
         margin: 0 0 0 10px;
         display: grid;
         grid-template-columns: 1fr;
     }
 
-    .container1 .card
-    {
+    .container1 .card {
         width: 345px;
         height: 200px;
     }
 
-    .container1 h3
-    {
+    .container1 h3 {
         margin: 5px 0px 0 20px;
     }
 
-    .container1 p
-    {
+    .container1 p {
         margin: 5px 0 5px 20px;
     }
 
-    .picture
-    {
+    .picture {
         width: 335px;
         height: 120px;
         overflow: hidden; 
@@ -1797,21 +1515,18 @@ and (max-width: 601px)
         margin: 5px 5px 5px 5px; 
     }
 
-    .picture img
-    {
+    .picture img {
         width: 100%;
         position: relative;
         top: 50%;
         transform: translateY(-50%);
     }
 
-    .more 
-    {
+    .more {
         margin: 30px 0 20px 20px;
     }
 
-    .container3 
-    {
+    .container3 {
         display: flex;
         flex-wrap: wrap;
     }
@@ -1828,213 +1543,177 @@ and (max-width: 601px)
         border-radius: 19px 19px 0 0;
     }
 
-    .imghight img
-    {
+    .imghight img {
         width: 100%;
         position: relative;
         bottom: 40%;
         transform: translateY(-40%);
     }
 
-    .imgcastle
-    {
+    .imgcastle {
         width: 345px;
         height: 140px;
         overflow: hidden; 
         border-radius: 19px 19px 0 0
     }
 
-    .imgcastle img
-    {
+    .imgcastle img {
         width: 100%;
         position: relative;
         top: 50%;
         transform: translateY(-50%);
     }
 
-    .imgfrioul
-    {
+    .imgfrioul {
         width: 345px;
         height: 140px;
         overflow: hidden; 
         border-radius: 19px 19px 0 0
     }
 
-    .imgfrioul img
-    {
+    .imgfrioul img {
         width: 100%;
         position: relative;
         top: 50%;
         transform: translateY(-50%);
     }
 
-    .imgladywatch
-    {
+    .imgladywatch {
         width: 345px;
         height: 140px;
         overflow: hidden; 
         border-radius: 19px 19px 0 0
     }
 
-    .imgladywatch img
-    {
+    .imgladywatch img {
         width: 100%;
         position: relative;
     }
 
-    .imglongchamp
-    {
+    .imglongchamp {
         width: 345px;
         height: 140px;
         overflow: hidden; 
         border-radius: 19px 19px 0 0
     }
 
-    .imglongchamp img
-    {
+    .imglongchamp img {
         width: 100%;
         position: relative;
     }
 
-    .activities h2 
-    {
+    .activities h2 {
         margin: 0;
         padding: 32px 0 20px 20px;
     }
 
-    .activities h3
-    {
+    .activities h3 {
         margin-top: 20px;
     }
 
-    .about 
-    {
+    .about {
         padding-top: 50px;
     }
     
-    .footer
-    {
+    .footer {
         display: block;
         margin: 50px 0 0 30px;
     }
 
-    footer
-    {
+    footer {
         height: 500px;    
     }
 }
-
 @media screen and (min-width: 50px) 
 and (max-width: 375px) 
-{
-    .body
-    {
+{   .body {
         overflow: scroll;
     }
 
-    header
-    {
+    header {
         margin-right: 50px;
     }
 
-    .logo 
-    {
+    .logo {
         height: 50px;
         margin: 30px 30px;
     }
 
-    nav
-    {
+    nav {
         flex-direction: row-reverse;
         flex-wrap: wrap-reverse;
     }
     
-    nav
-    {
+    nav {
         width: 60%;
         margin-right: 42px;
     }
     
-    .nav1
-    {
+    .nav1 {
         justify-content: space-between;
         margin:0;
         border-top: none;
     }
     
-    nav .slidetop1 a
-    {
+    nav .slidetop1 a {
         padding: 0 50px 10px 60px;
         margin-left: 0;
         border-bottom: solid 2px #f2f2f2;
     }
     
-    nav .slidetop1 a:hover
-    {
+    nav .slidetop1 a:hover {
         border-bottom: solid 2px #0065FC;
     }
     
-    nav .slidetop1:hover
-    {
+    nav .slidetop1:hover {
         border-top: none;
     }
     
-    nav .slidetop2 a
-    {
+    nav .slidetop2 a {
         padding: 0 40px 10px 40px;
         margin-left: 0%;
         border-bottom: solid 2px #f2f2f2;
     }
     
-    nav .slidetop2 a:hover
-    {
+    nav .slidetop2 a:hover {
         border-bottom: solid 2px #0065FC;
     }
     
-    nav .slidetop2:hover
-    {
+    nav .slidetop2:hover {
         border-top: none;
     }
     
-    nav .inscription a
-    {
+    nav .inscription a {
         margin-left: 14%;
     }
 
-    nav .inscription:hover
-    {
+    nav .inscription:hover {
         border-top: none;
     }
    
-    .inscription
-    {
+    .inscription {
         padding-top: 51px;
     }
 
-    .search-section
-    {
+    .search-section {
         padding: 20px 0 0 10px;
     }
 
-    .search-section h1
-    {
+    .search-section h1 {
         font-size: 26px;
         margin-top: 20px;
     }
 
-    .main h2
-    {
+    .main h2 {
         font-size: 22px;
         margin-left: 0;
     }
 
-    .click-on
-    {
+    .click-on {
         display: none;
     }
 
-    .search .click-on2
-    {
+    .search .click-on2 {
         display: inline;
         font-family: "Raleway-Bold", sans-serif;
         font-weight: 500;
@@ -2047,8 +1726,7 @@ and (max-width: 375px)
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     }
 
-    .filters
-    {
+    .filters {
         display: grid;      
         grid-template-rows: 1fr 1fr 1fr 1fr;
         grid-template-columns: 1fr 1fr;
@@ -2056,101 +1734,83 @@ and (max-width: 375px)
         margin-top: 15px;
     }
 
-
-    .familial
-    {
+    .familial {
         grid-area: 2;
         margin-left: -40px;
     }
 
-    .economic
-    {
+    .economic {
         grid-area: 2;
         margin: 0;
     }
     
-    .romantic
-    {
+    .romantic {
         grid-area: 3;
         margin: 0;
     }
 
-    .animal
-    {
+    .animal {
         grid-area: 4;
         margin: 0;
     }
 
-    .informations
-    {
+    .informations {
         font-size: 15px;
         margin: 20px 20px 25px 0;
     }
 
-    .main
-    {
+    .main {
         display:flex ;
         flex-wrap: wrap;
         order: 0;
         height: auto;
     }
 
-    .popular
-    {
+    .popular {
         order: 1;
         height: auto;
     }
 
-    .container1 h3
-    {
+    .container1 h3 {
         font-size: 18px;
     }
 
-    .container2 h3
-    {
+    .container2 h3 {
         font-size: 18px;
     }
 
-    .container3 h3
-    {
+    .container3 h3 {
         font-size: 18px;
     }
     
-    .popular
-    {
+    .popular {
         width: 100%;
         margin: 0;
         border-radius: 0;
         height:650px;
     }
 
-    .popular h2
-    {
+    .popular h2 {
         padding: 37px 0 0 20px;
     }
 
-    .fa-chart-line::before 
-    {
+    .fa-chart-line::before  {
         padding-left: 80px;
     }
 
-    .container2
-    {
+    .container2 {
         margin-left: 15px;
     }
 
-    .container2 .card
-    {
+    .container2 .card {
         width: 345px;
     }
 
-    .container2 p
-    {
+    .container2 p {
         margin: 5px 0 30px 20px;
     }
 
-    .accomodation 
-    {
+    .accomodation {
         order: 2;
         height: auto;
         width: auto;
@@ -2158,36 +1818,30 @@ and (max-width: 375px)
         margin: 0;
     }
 
-    .accomodation h2 
-    {
+    .accomodation h2 {
         padding: 32px 0 0 20px;
     }
 
-    .container1
-    {
+    .container1 {
         margin: 0 0 0 10px;
         display: grid;
         grid-template-columns: 1fr;
     }
 
-    .container1 .card
-    {
+    .container1 .card {
         width: 345px;
         height: 200px;
     }
 
-    .container1 h3
-    {
+    .container1 h3 {
         margin: 5px 0px 0 20px;
     }
 
-    .container1 p
-    {
+    .container1 p {
         margin: 5px 0 5px 20px;
     }
 
-    .picture
-    {
+    .picture {
         width: 335px;
         height: 120px;
         overflow: hidden; 
@@ -2195,21 +1849,18 @@ and (max-width: 375px)
         margin: 5px 5px 5px 5px; 
     }
 
-    .picture img
-    {
+    .picture img {
         width: 100%;
         position: relative;
         top: 50%;
         transform: translateY(-50%);
     }
 
-    .more 
-    {
+    .more {
         margin: 30px 0 20px 20px;
     }
 
-    .container3 
-    {
+    .container3 {
         display: flex;
         flex-wrap: wrap;
     }
@@ -2226,98 +1877,84 @@ and (max-width: 375px)
         border-radius: 19px 19px 0 0;
     }
 
-    .imghight img
-    {
+    .imghight img {
         width: 100%;
         position: relative;
         bottom: 40%;
         transform: translateY(-40%);
     }
 
-    .imgcastle
-    {
+    .imgcastle {
         width: 345px;
         height: 140px;
         overflow: hidden; 
         border-radius: 19px 19px 0 0
     }
 
-    .imgcastle img
-    {
+    .imgcastle img {
         width: 100%;
         position: relative;
         top: 50%;
         transform: translateY(-50%);
     }
 
-    .imgfrioul
-    {
+    .imgfrioul {
         width: 345px;
         height: 140px;
         overflow: hidden; 
         border-radius: 19px 19px 0 0
     }
 
-    .imgfrioul img
-    {
+    .imgfrioul img {
         width: 100%;
         position: relative;
         top: 50%;
         transform: translateY(-50%);
     }
 
-    .imgladywatch
-    {
+    .imgladywatch {
         width: 345px;
         height: 140px;
         overflow: hidden; 
         border-radius: 19px 19px 0 0
     }
 
-    .imgladywatch img
-    {
+    .imgladywatch img {
         width: 100%;
         position: relative;
     }
 
-    .imglongchamp
-    {
+    .imglongchamp {
         width: 345px;
         height: 140px;
         overflow: hidden; 
         border-radius: 19px 19px 0 0
     }
 
-    .imglongchamp img
-    {
+    .imglongchamp img {
         width: 100%;
         position: relative;
     }
 
-    .activities h2 
-    {
+    .activities h2 {
         margin: 0;
         padding: 32px 0 20px 20px;
     }
 
-    .activities h3
-    {
+    .activities h3 {
         margin-top: 20px;
     }
 
-    .about 
-    {
+    .about {
         padding-top: 50px;
     }
     
-    .footer
-    {
+    .footer {
         display: block;
         margin: 50px 0 0 30px;
     }
 
-    footer
-    {
+    footer {
         height: 500px;    
     }
 }
