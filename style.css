@@ -434,6 +434,11 @@ a {
      box-shadow: 0 20px 30px rgba(0,0,0,0.25), 0 15px 15px rgba(0,0,0,0.22);
 }
 
+.container1 .card:hover {
+    animation-duration: 0.25s;
+    box-shadow: 0 20px 30px rgba(0,0,0,0.25), 0 15px 15px rgba(0,0,0,0.22);
+}
+
 .accomodation a {
     text-decoration: none;
     color: black;
@@ -851,7 +856,7 @@ and (max-width: 1366px)
         grid-template-columns: 1FR 1FR;
         grid-template-rows: 1FR 1FR;
         grid-row-gap: 50px;
-        margin: 20px 40px 50px 50px;
+        margin: 30px 40px 50px 50px;
         justify-content: center;
     }
 
@@ -929,6 +934,10 @@ and (max-width: 1024px)
         flex-wrap: wrap;
     }
 
+    .animal {
+        margin-top: 20px;
+    }
+
     .Main{
         display:flex ;
         flex-wrap: wrap;
@@ -940,31 +949,37 @@ and (max-width: 1024px)
         order: 2;
         height: auto;
         width: 100%;
+        margin: 20px 50px 0px 50px;
         background: none;
     }
  
     .Popular{
         order: 1;
-        border-radius: 0%;
+        height: auto;
         width: 100%;
-        height: 450px;
-        margin: 0;
+        margin: auto;
+        border-radius: 0%;
     }
 
     .fa-chart-line::before {
-        padding-left: 475px;
+        padding-left: 500px;
     }
 
     .container1 {
         display: flex;
-        align-items: center;
+        grid-column-gap: 100px;
+        grid-row-gap: 30px;
+        margin-left: 50px;
         flex-wrap: wrap;
     }
 
     .container2 {
-        display: grid;
-        grid-template-columns: 1FR 1FR;
-        grid-template-rows: 1FR 1FR;
+        display: flex;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-row-gap: 30px;
+        margin: 0 40px 50px 50px;
+        flex-wrap: wrap;
+        grid-column-gap: 20px;
     }
 
     .Activities h2 {
@@ -1055,6 +1070,7 @@ and (max-width: 768px)
 
     .Main h2 { 
         font-size: 24px;
+        margin-left: 60px;
     }
 
     .click-on {
@@ -1106,23 +1122,9 @@ and (max-width: 768px)
         height: auto;
     }
 
-    .Popular { 
-        display: flex;
-        flex-wrap: wrap;
+    .Popular {
         order: 1;
-        width: 100%;
-        margin: 0;
-        border-radius: 0;
-        height:auto;
-    }
-
-    .container2 {
-        display: grid;
-        margin: 30px auto;
-    }
-
-    .fa-chart-line::before {
-        padding-left: 300px;
+        height: auto;
     }
 
     .container1 h3 {
@@ -1137,6 +1139,19 @@ and (max-width: 768px)
         font-size: 22px;
     }
     
+    .Popular {
+        width: 100%;
+        margin: 0;
+        border-radius: 0;
+        height:650px;
+    }
+
+    .container2 {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-left: 100px;
+    }
+
     .container2 .card {
         width: 400px;
     }
@@ -1150,19 +1165,19 @@ and (max-width: 768px)
         height: auto;
         width: auto;
         background: none;
-        margin: 0 auto;
+        margin: 0;
     }
 
-    .container1
-    {
-        display: block;
-        align-items: center;
+    .container1 {
+        margin: 0;
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-left: 100px;
     }
-    
+
     .container1 .card {
         width: 400px;
         height: 300px;
-        margin-top: 30px;
     }
 
     .picture {
@@ -1181,7 +1196,7 @@ and (max-width: 768px)
     }
 
     .more {
-        margin: 41px 0 43px 0px;
+        margin: 41px 0 43px 100px;
     }
 
     .container3 {
@@ -1256,6 +1271,8 @@ and (max-width: 768px)
     }
 
     .Activities h2 {
+        margin-left: 100px;
+        margin-top: 10px;
         font-size: 24px;
     }
 
@@ -1420,19 +1437,9 @@ and (max-width: 601px)
         height: auto;
     }
 
-    .Popular { 
-        display: flex;
-        flex-wrap: wrap;
+    .Popular {
         order: 1;
-        width: 100%;
-        margin: 0;
-        border-radius: 0;
-        height:auto;
-    }
-
-    .container2 {
-        display: grid;
-        margin: 10px auto;
+        height: auto;
     }
 
     .container1 h3 {
@@ -1447,6 +1454,13 @@ and (max-width: 601px)
         font-size: 18px;
     }
     
+    .Popular {
+        width: 100%;
+        margin: 0;
+        border-radius: 0;
+        height:650px;
+    }
+
     .Popular h2{
         padding: 37px 0 0 20px;
     }
@@ -1454,6 +1468,11 @@ and (max-width: 601px)
     .fa-chart-line::before {
         padding-left: 80px;
     }
+
+    .container2 {
+        margin-left: 15px;
+    }
+
     .container2 .card {
         width: 345px;
     }
@@ -1467,7 +1486,7 @@ and (max-width: 601px)
         height: auto;
         width: auto;
         background: none;
-        margin: 0 auto;
+        margin: 0;
     }
 
     .accomodation h2 {
@@ -1506,6 +1525,10 @@ and (max-width: 601px)
         position: relative;
         top: 50%;
         transform: translateY(-50%);
+    }
+
+    .more {
+        margin: 30px 0 20px 20px;
     }
 
     .container3 {
@@ -1584,16 +1607,13 @@ and (max-width: 601px)
         position: relative;
     }
 
+    .Activities h2 {
+        margin: 0;
+        padding: 32px 0 20px 20px;
+    }
+
     .Activities h3 {
         margin-top: 20px;
-    }
-
-    .Activities h2 {
-        margin: 0 0 10px 50px;
-    }
-
-    .more {
-        margin: 41px 0 43px 30px;
     }
 
     .about {
@@ -1751,6 +1771,11 @@ and (max-width: 375px)
         height: auto;
     }
 
+    .Popular {
+        order: 1;
+        height: auto;
+    }
+
     .container1 h3 {
         font-size: 18px;
     }
@@ -1764,8 +1789,7 @@ and (max-width: 375px)
     }
     
     .Popular {
-        width: fit-content;
-        order: 1;
+        width: 100%;
         margin: 0;
         border-radius: 0;
         height:650px;
@@ -1844,7 +1868,6 @@ and (max-width: 375px)
     .container3 {
         display: flex;
         flex-wrap: wrap;
-        align-items: center;
     }
 
     .container3 .card {
@@ -1937,8 +1960,6 @@ and (max-width: 375px)
     }
 
     footer {
-        height: 500px;
-        width:100%  
+        height: 500px;    
     }
 }
-
