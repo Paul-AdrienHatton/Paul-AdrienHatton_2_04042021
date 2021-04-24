@@ -934,10 +934,6 @@ and (max-width: 1024px)
         flex-wrap: wrap;
     }
 
-    .animal {
-        margin-top: 20px;
-    }
-
     .Main{
         display:flex ;
         flex-wrap: wrap;
