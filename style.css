@@ -834,6 +834,7 @@ and (max-width: 1366px)
     .container1{
         display: flex;
         flex-wrap: wrap;
+        justify-content: center;
     }
 
     .container1 .card{
@@ -967,6 +968,7 @@ and (max-width: 1024px)
         grid-row-gap: 30px;
         margin-left: 50px;
         flex-wrap: wrap;
+        justify-content: center;
     }
 
     .container2 {
@@ -976,6 +978,7 @@ and (max-width: 1024px)
         margin: 0 40px 50px 50px;
         flex-wrap: wrap;
         grid-column-gap: 20px;
+        justify-content: center;
     }
 
     .Activities h2 {
@@ -1066,7 +1069,6 @@ and (max-width: 768px)
 
     .Main h2 { 
         font-size: 24px;
-        margin-left: 60px;
     }
 
     .click-on {
@@ -1143,9 +1145,9 @@ and (max-width: 768px)
     }
 
     .container2 {
-        display: grid;
-        grid-template-columns: 1fr;
-        margin-left: 100px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 
     .container2 .card {
@@ -1161,14 +1163,13 @@ and (max-width: 768px)
         height: auto;
         width: auto;
         background: none;
-        margin: 0;
+        margin: 0 auto;
     }
 
     .container1 {
         margin: 0;
         display: grid;
         grid-template-columns: 1fr;
-        margin-left: 100px;
     }
 
     .container1 .card {
@@ -1192,7 +1193,7 @@ and (max-width: 768px)
     }
 
     .more {
-        margin: 41px 0 43px 100px;
+        margin: 41px 0 43px 0;
     }
 
     .container3 {
@@ -1466,7 +1467,13 @@ and (max-width: 601px)
     }
 
     .container2 {
-        margin-left: 15px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .container2{
+        margin: 0;
     }
 
     .container2 .card {
@@ -1482,7 +1489,7 @@ and (max-width: 601px)
         height: auto;
         width: auto;
         background: none;
-        margin: 0;
+        margin: 0 auto;
     }
 
     .accomodation h2 {
